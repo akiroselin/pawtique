@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PawTique · 宠物个性化定制</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --yellow: #FFD84D;
+    --yellow-dark: #F5C200;
+    --yellow-light: #FFF3B0;
+    --cream: #FFF9EC;
+    --cream-dark: #FFF1D6;
+    --brown: #5C3D2E;
+    --brown-light: #8B5E3C;
+    --text: #3D2B1F;
+    --text-muted: #9C7B6B;
+    --white: #FFFFFF;
+    --shadow: rgba(92, 61, 46, 0.12);
+    --radius: 20px;
+    --radius-sm: 12px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  .doodle-font { font-family: 'Caveat', cursive; }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--cream);
+    border-bottom: 3px dashed var(--yellow);
+    padding: 0 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 68px;
+  }
+
+  .nav-logo {
+    font-size: 26px; font-weight: 900;
+    color: var(--brown);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .nav-logo span { color: var(--yellow-dark); }
+
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a {
+    text-decoration: none; color: var(--text); font-weight: 700;
+    font-size: 15px; transition: color .2s;
+  }
+  .nav-links a:hover { color: var(--yellow-dark); }
+
+  .nav-actions { display: flex; align-items: center; gap: 16px; }
+  .nav-actions .icon-btn {
+    width: 40px; height: 40px; border-radius: 50%;
+    border: 2px solid var(--yellow);
+    background: var(--white);
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all .2s; position: relative;
+  }
+  .nav-actions .icon-btn:hover { background: var(--yellow-light); transform: scale(1.05); }
+
+  .cart-badge {
+    position: absolute; top: -4px; right: -4px;
+    background: var(--yellow-dark); color: var(--brown);
+    font-size: 11px; font-weight: 800; width: 18px; height: 18px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--yellow-light);
+    border-bottom: 3px dashed var(--yellow-dark);
+    padding: 80px 40px 100px;
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+
+  .hero::before {
+    content: '🐾'; position: absolute; font-size: 80px; opacity: 0.1; top: 20px; left: 5%;
+  }
+  .hero::after {
+    content: '🐾'; position: absolute; font-size: 60px; opacity: 0.1; bottom: 30px; right: 8%;
+  }
+
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--yellow); color: var(--brown);
+    font-weight: 800; font-size: 13px; letter-spacing: 2px;
+    padding: 6px 18px; border-radius: 30px;
+    margin-bottom: 20px; border: 2px solid var(--yellow-dark);
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 7vw, 72px);
+    font-weight: 900; color: var(--brown); line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  .hero h1 em { font-style: normal; color: var(--yellow-dark); }
+
+  .hero p {
+    font-size: 18px; color: var(--text-muted); max-width: 520px;
+    margin: 0 auto 36px; line-height: 1.7;
+  }
+
+  .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+  .btn-primary {
+    background: var(--yellow); color: var(--brown);
+    border: 3px solid var(--yellow-dark);
+    padding: 14px 36px; border-radius: 50px;
+    font-weight: 800; font-size: 16px; cursor: pointer;
+    transition: all .2s; text-decoration: none; display: inline-block;
+    box-shadow: 4px 4px 0 var(--brown);
+  }
+  .btn-primary:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--brown); }
+
+  .btn-secondary {
+    background: var(--white); color: var(--brown);
+    border: 3px solid var(--yellow-dark);
+    padding: 14px 36px; border-radius: 50px;
+    font-weight: 800; font-size: 16px; cursor: pointer;
+    transition: all .2s; text-decoration: none; display: inline-block;
+  }
+  .btn-secondary:hover { background: var(--yellow-light); transform: translate(-2px, -2px); }
+
+  /* ── TRUST BAR ── */
+  .trust-bar {
+    background: var(--white);
+    padding: 24px 40px;
+    display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;
+    border-bottom: 2px dashed var(--yellow);
+  }
+  .trust-item {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14px; font-weight: 700; color: var(--text-muted);
+  }
+  .trust-item .check {
+    width: 28px; height: 28px; background: var(--yellow-light);
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-size: 14px; flex-shrink: 0;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    padding: 80px 40px;
+    max-width: 1200px; margin: 0 auto;
+  }
+
+  .section-header { text-align: center; margin-bottom: 52px; }
+  .section-header h2 {
+    font-size: 38px; font-weight: 900; color: var(--brown); margin-bottom: 10px;
+  }
+  .section-header p { color: var(--text-muted); font-size: 16px; }
+
+  /* ── CATEGORY PILLS ── */
+  .cat-pills {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 48px;
+  }
+  .cat-pill {
+    background: var(--white); border: 2.5px solid var(--yellow);
+    padding: 10px 24px; border-radius: 50px;
+    font-weight: 700; font-size: 14px; cursor: pointer;
+    transition: all .2s; color: var(--text);
+  }
+  .cat-pill:hover, .cat-pill.active {
+    background: var(--yellow); color: var(--brown); border-color: var(--yellow-dark);
+    transform: scale(1.05);
+  }
+
+  /* ── PRODUCT GRID ── */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 28px;
+  }
+
+  .product-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    border: 2.5px solid var(--yellow);
+    overflow: hidden;
+    transition: all .3s;
+    cursor: pointer;
+    position: relative;
+  }
+  .product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px var(--shadow);
+  }
+
+  .product-img {
+    width: 100%; height: 240px;
+    background: var(--cream-dark);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 72px; position: relative; overflow: hidden;
+  }
+  .product-img .paw-bg {
+    position: absolute; font-size: 100px; opacity: 0.08;
+  }
+
+  .product-tag {
+    position: absolute; top: 12px; left: 12px;
+    background: var(--yellow); color: var(--brown);
+    font-size: 12px; font-weight: 800; padding: 4px 12px;
+    border-radius: 20px; border: 2px solid var(--yellow-dark);
+  }
+
+  .product-wishlist {
+    position: absolute; top: 12px; right: 12px;
+    width: 34px; height: 34px; background: var(--white);
+    border-radius: 50%; border: 2px solid var(--yellow);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; font-size: 16px; transition: all .2s;
+  }
+  .product-wishlist:hover { background: var(--yellow-light); transform: scale(1.1); }
+
+  .product-info { padding: 18px 20px 22px; }
+  .product-category {
+    font-size: 12px; font-weight: 700; color: var(--text-muted);
+    letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;
+  }
+  .product-name {
+    font-size: 17px; font-weight: 800; color: var(--brown);
+    margin-bottom: 10px; line-height: 1.3;
+  }
+  .product-price { display: flex; align-items: baseline; gap: 8px; }
+  .price-current { font-size: 22px; font-weight: 900; color: var(--brown); }
+  .price-original { font-size: 14px; color: var(--text-muted); text-decoration: line-through; }
+
+  .product-colors { display: flex; gap: 6px; margin-top: 10px; }
+  .color-dot {
+    width: 18px; height: 18px; border-radius: 50%;
+    border: 2px solid transparent; cursor: pointer; transition: transform .2s;
+  }
+  .color-dot:hover { transform: scale(1.2); }
+  .color-dot.selected { border-color: var(--brown); }
+
+  /* ── CUSTOMIZE BANNER ── */
+  .customize-banner {
+    background: var(--yellow);
+    border-radius: 28px;
+    padding: 64px 56px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+    align-items: center;
+    border: 3px solid var(--yellow-dark);
+    position: relative; overflow: hidden;
+    margin: 20px 0 80px;
+  }
+  .customize-banner::before {
+    content: '✨'; position: absolute; font-size: 60px; top: 10px; right: 30px; opacity: 0.5;
+  }
+  .customize-banner h2 {
+    font-size: 36px; font-weight: 900; color: var(--brown); margin-bottom: 14px;
+  }
+  .customize-banner p { color: var(--brown-light); font-size: 16px; line-height: 1.7; margin-bottom: 24px; }
+  .customize-steps { list-style: none; display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
+  .customize-steps li {
+    display: flex; align-items: center; gap: 12px;
+    font-weight: 700; font-size: 15px; color: var(--brown);
+  }
+  .step-num {
+    width: 30px; height: 30px; background: var(--brown);
+    color: var(--yellow); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 900; flex-shrink: 0;
+  }
+
+  .customize-preview {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 32px;
+    border: 3px dashed var(--yellow-dark);
+    text-align: center;
+  }
+  .preview-product {
+    font-size: 100px; margin-bottom: 16px;
+  }
+  .preview-label {
+    font-size: 13px; font-weight: 700; color: var(--text-muted);
+    letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;
+  }
+  .preview-name { font-size: 22px; font-weight: 900; color: var(--brown); }
+  .preview-sub { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+
+  /* ── TESTIMONIALS ── */
+  .testimonial-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px;
+  }
+  .testimonial-card {
+    background: var(--white); border-radius: var(--radius);
+    border: 2.5px solid var(--yellow); padding: 28px;
+  }
+  .testimonial-stars { color: var(--yellow-dark); font-size: 18px; margin-bottom: 14px; }
+  .testimonial-text {
+    font-size: 15px; line-height: 1.7; color: var(--text); margin-bottom: 18px;
+  }
+  .testimonial-author { display: flex; align-items: center; gap: 12px; }
+  .author-avatar {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: var(--yellow-light); border: 2px solid var(--yellow);
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+  }
+  .author-name { font-weight: 800; font-size: 14px; color: var(--brown); }
+  .author-pet { font-size: 13px; color: var(--text-muted); }
+
+  /* ── NEWSLETTER ── */
+  .newsletter {
+    background: var(--brown); color: var(--yellow-light);
+    border-radius: 28px; padding: 64px 56px;
+    text-align: center; margin: 80px 0;
+    position: relative; overflow: hidden;
+  }
+  .newsletter::before {
+    content: '🐶'; position: absolute; font-size: 120px; opacity: 0.06; bottom: -20px; left: 5%;
+  }
+  .newsletter h2 { font-size: 32px; font-weight: 900; margin-bottom: 10px; }
+  .newsletter p { color: var(--text-muted); margin-bottom: 28px; }
+  .newsletter-form {
+    display: flex; gap: 12px; max-width: 460px; margin: 0 auto;
+  }
+  .newsletter-form input {
+    flex: 1; padding: 14px 20px; border-radius: 50px;
+    border: 2.5px solid var(--yellow); background: var(--white);
+    font-family: 'Nunito', sans-serif; font-size: 15px; outline: none;
+  }
+  .newsletter-form input:focus { border-color: var(--yellow-dark); }
+  .newsletter-form button {
+    background: var(--yellow); color: var(--brown);
+    border: 3px solid var(--yellow-dark);
+    padding: 14px 28px; border-radius: 50px;
+    font-weight: 800; font-size: 15px; cursor: pointer;
+    white-space: nowrap; transition: all .2s;
+  }
+  .newsletter-form button:hover { background: var(--yellow-dark); transform: scale(1.03); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--cream-dark);
+    border-top: 3px dashed var(--yellow);
+    padding: 60px 40px 30px;
+  }
+  .footer-grid {
+    max-width: 1200px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
+    margin-bottom: 40px;
+  }
+  .footer-brand h3 { font-size: 24px; font-weight: 900; color: var(--brown); margin-bottom: 10px; }
+  .footer-brand p { font-size: 14px; color: var(--text-muted); line-height: 1.7; max-width: 280px; }
+  .footer-col h4 { font-size: 13px; font-weight: 800; color: var(--brown); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 16px; }
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .footer-col a { text-decoration: none; color: var(--text-muted); font-size: 14px; font-weight: 600; transition: color .2s; }
+  .footer-col a:hover { color: var(--yellow-dark); }
+
+  .footer-bottom {
+    max-width: 1200px; margin: 0 auto;
+    padding-top: 24px; border-top: 2px dashed var(--yellow);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 13px; color: var(--text-muted); font-weight: 600;
+  }
+
+  /* ── FLOATING CART ── */
+  .floating-cart {
+    position: fixed; bottom: 28px; right: 28px; z-index: 200;
+    width: 60px; height: 60px; border-radius: 50%;
+    background: var(--yellow); border: 3px solid var(--yellow-dark);
+    box-shadow: 4px 4px 0 var(--brown);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; cursor: pointer; transition: all .2s;
+  }
+  .floating-cart:hover { transform: scale(1.1); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .float-anim { animation: float 3s ease-in-out infinite; }
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-2deg); }
+    50% { transform: rotate(2deg); }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    nav { padding: 0 20px; }
+    .nav-links { display: none; }
+    .hero { padding: 60px 20px 80px; }
+    .section { padding: 60px 20px; }
+    .customize-banner { grid-template-columns: 1fr; padding: 40px 28px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .newsletter-form { flex-direction: column; }
+    .newsletter { padding: 40px 28px; }
+  }
+
+  @media (max-width: 480px) {
+    .footer-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">
+    <span>🐾</span> PawTique
+  </div>
+  <ul class="nav-links">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">全部商品</a></li>
+    <li><a href="#">定制系列</a></li>
+    <li><a href="#">关于我们</a></li>
+    <li><a href="#">博客</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="icon-btn">🔍</button>
+    <button class="icon-btn">👤</button>
+    <button class="icon-btn">
+      🛒
+      <span class="cart-badge">3</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-eyebrow">✨ 每一只毛孩子都值得独一无二</div>
+  <h1>为你的宠物<br><em>定制专属幸福</em></h1>
+  <p>手绘风格 · 精选材质 · 匠心制作<br>让爱宠的每一天都充满个性与温暖</p>
+  <div class="hero-btns">
+    <a href="#" class="btn-primary">开始定制 🐾</a>
+    <a href="#" class="btn-secondary">浏览商品</a>
+  </div>
+</section>
+
+<!-- ── TRUST BAR ── -->
+<div class="trust-bar">
+  <div class="trust-item"><div class="check">✓</div> 顺丰包邮</div>
+  <div class="trust-item"><div class="check">✓</div> 7天无理由退换</div>
+  <div class="trust-item"><div class="check">✓</div> 原创手绘设计</div>
+  <div class="trust-item"><div class="check">✓</div> 专属定制服务</div>
+  <div class="trust-item"><div class="check">✓</div> 材质安全认证</div>
+</div>
+
+<!-- ── PRODUCTS ── -->
+<section class="section">
+  <div class="section-header">
+    <h2>人气定制单品</h2>
+    <p>精选爆款，让你的宠物闪耀登场</p>
+  </div>
+
+  <div class="cat-pills">
+    <div class="cat-pill active">全部</div>
+    <div class="cat-pill">宠物项圈</div>
+    <div class="cat-pill">铭牌吊坠</div>
+    <div class="cat-pill">宠物服饰</div>
+    <div class="cat-pill">牵引绳</div>
+    <div class="cat-pill">宠物窝垫</div>
+  </div>
+
+  <div class="product-grid">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #FFF3B0;">
+        <div class="paw-bg">🐾</div>
+        <div class="product-tag">爆款</div>
+        <div class="product-wishlist">♡</div>
+        🦮
+      </div>
+      <div class="product-info">
+        <div class="product-category">宠物项圈</div>
+        <div class="product-name">手绘星星款定制项圈</div>
+        <div class="product-price">
+          <span class="price-current">¥89</span>
+          <span class="price-original">¥129</span>
+        </div>
+        <div class="product-colors">
+          <div class="color-dot selected" style="background:#FFD84D; border-color:#F5C200;"></div>
+          <div class="color-dot" style="background:#FF8FA3;"></div>
+          <div class="color-dot" style="background:#A8D8A8;"></div>
+          <div class="color-dot" style="background:#A8C8E8;"></div>
+          <div class="color-dot" style="background:#E8C8A8;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #FFE8F0;">
+        <div class="paw-bg">🐾</div>
+        <div class="product-tag" style="background:#FF8FA3; color:white; border-color:#e06080;">新品</div>
+        <div class="product-wishlist">♡</div>
+        🐕
+      </div>
+      <div class="product-info">
+        <div class="product-category">铭牌吊坠</div>
+        <div class="product-name">萌爪肉球定制铭牌</div>
+        <div class="product-price">
+          <span class="price-current">¥59</span>
+          <span class="price-original">¥79</span>
+        </div>
+        <div class="product-colors">
+          <div class="color-dot selected" style="background:#FFD84D; border-color:#F5C200;"></div>
+          <div class="color-dot" style="background:#FF8FA3;"></div>
+          <div class="color-dot" style="background:#C0C0C0;"></div>
+          <div class="color-dot" style="background:#E8C8A8;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #E8F5E8;">
+        <div class="paw-bg">🐾</div>
+        <div class="product-wishlist">♡</div>
+        🐩
+      </div>
+      <div class="product-info">
+        <div class="product-category">宠物服饰</div>
+        <div class="product-name">手绘涂鸦宠物背心</div>
+        <div class="product-price">
+          <span class="price-current">¥128</span>
+          <span class="price-original">¥168</span>
+        </div>
+        <div class="product-colors">
+          <div class="color-dot selected" style="background:#A8D8A8; border-color:#6db86d;"></div>
+          <div class="color-dot" style="background:#FFD84D;"></div>
+          <div class="color-dot" style="background:#FF8FA3;"></div>
+          <div class="color-dot" style="background:#E8C8A8;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #FFF0D6;">
+        <div class="paw-bg">🐾</div>
+        <div class="product-tag" style="background:#FF8FA3; color:white; border-color:#e06080;">热卖</div>
+        <div class="product-wishlist">♡</div>
+        🦮
+      </div>
+      <div class="product-info">
+        <div class="product-category">牵引绳</div>
+        <div class="product-name">彩虹手绘伸缩牵引绳</div>
+        <div class="product-price">
+          <span class="price-current">¥98</span>
+          <span class="price-original">¥138</span>
+        </div>
+        <div class="product-colors">
+          <div class="color-dot selected" style="background:#FF8FA3; border-color:#e06080;"></div>
+          <div class="color-dot" style="background:#FFD84D;"></div>
+          <div class="color-dot" style="background:#A8D8A8;"></div>
+          <div class="color-dot" style="background:#A8C8E8;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #F0E8FF;">
+        <div class="paw-bg">🐾</div>
+        <div class="product-wishlist">♡</div>
+        🐈
+      </div>
+      <div class="product-info">
+        <div class="product-category">宠物窝垫</div>
+        <div class="product-name">猫咪豆窝保暖垫</div>
+        <div class="product-price">
+          <span class="price-current">¥158</span>
+          <span class="price-original">¥198</span>
+        </div>
+        <div class="product-colors">
+          <div class="color-dot selected" style="background:#C8A8E8; border-color:#9060c0;"></div>
+          <div class="color-dot" style="background:#FFD84D;"></div>
+          <div class="color-dot" style="background:#A8D8A8;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #E8F4FF;">
+        <div class="paw-bg">🐾</div>
+        <div class="product-tag">定制款</div>
+        <div class="product-wishlist">♡</div>
+        🐕
+      </div>
+      <div class="product-info">
+        <div class="product-category">宠物项圈</div>
+        <div class="product-name">手绘名字定制项圈</div>
+        <div class="product-price">
+          <span class="price-current">¥78</span>
+          <span class="price-original">¥108</span>
+        </div>
+        <div class="product-colors">
+          <div class="color-dot selected" style="background:#A8C8E8; border-color:#6090c0;"></div>
+          <div class="color-dot" style="background:#FFD84D;"></div>
+          <div class="color-dot" style="background:#FF8FA3;"></div>
+          <div class="color-dot" style="background:#A8D8A8;"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── CUSTOMIZE BANNER ── -->
+<div class="section" style="padding-top: 0; max-width: 1200px;">
+  <div class="customize-banner">
+    <div>
+      <h2 class="doodle-font" style="font-size: 44px;">3步轻松定制<br>专属爱宠好物 ✨</h2>
+      <p>从选款到设计，专人为你的毛孩子打造独一无二的礼物</p>
+      <ul class="customize-steps">
+        <li><div class="step-num">1</div> 选择喜欢的款式与颜色</li>
+        <li><div class="step-num">2</div> 上传爱宠照片或输入名字</li>
+        <li><div class="step-num">3</div> 确认设计，坐等收货 🐾</li>
+      </ul>
+      <a href="#" class="btn-primary">立即开始定制 →</a>
+    </div>
+    <div class="customize-preview">
+      <div class="preview-product float-anim">🦮</div>
+      <div class="preview-label">预览效果</div>
+      <div class="preview-name">★ 小豆 ★</div>
+      <div class="preview-sub">柴犬 · 黄色项圈 · 星星图案</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="section">
+  <div class="section-header">
+    <h2>铲屎官们怎么说 🐾</h2>
+    <p>真实评价，品质说话</p>
+  </div>
+  <div class="testimonial-grid">
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">"给我家柯基定制的项圈太可爱了！手绘风格独一无二，出门都被问在哪买的～做工也超精细，强烈推荐！"</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">🐶</div>
+        <div>
+          <div class="author-name">林小姐</div>
+          <div class="author-pet">柯基 · 团团</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">"定制了猫咪的名字铭牌，刻字清晰，材质安全，猫咪戴着完全没问题。包装也很精美，送朋友超有面子！"</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">🐱</div>
+        <div>
+          <div class="author-name">张先生</div>
+          <div class="author-pet">英短 · 奶茶</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <div class="testimonial-text">"已经是第三次回购了！每次定制都很满意，客服态度超好，会根据宠物特点给设计建议，很贴心～"</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">🐕</div>
+        <div>
+          <div class="author-name">王阿姨</div>
+          <div class="author-pet">金毛 · 旺财</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ── -->
+<div class="section">
+  <div class="newsletter">
+    <h2>订阅获取专属优惠 🐾</h2>
+    <p>新用户首单立减10元 · 每周新品抢先看</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="输入你的邮箱地址">
+      <button>立即订阅 ✨</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>🐾 PawTique</h3>
+      <p>专注宠物个性化定制，用心为每一只毛孩子打造独一无二的温暖好物。</p>
+    </div>
+    <div class="footer-col">
+      <h4>购物</h4>
+      <ul>
+        <li><a href="#">全部商品</a></li>
+        <li><a href="#">定制系列</a></li>
+        <li><a href="#">新品上市</a></li>
+        <li><a href="#">热卖榜单</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>帮助</h4>
+      <ul>
+        <li><a href="#">尺码指南</a></li>
+        <li><a href="#">定制说明</a></li>
+        <li><a href="#">配送方式</a></li>
+        <li><a href="#">退换政策</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>关于</h4>
+      <ul>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">设计团队</a></li>
+        <li><a href="#">联系客服</a></li>
+        <li><a href="#">社交媒体</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 PawTique. 用爱定制，为爱宠而生</span>
+    <span>🔒 隐私保护 · 📱 微信小程序</span>
+  </div>
+</footer>
+
+<!-- ── FLOATING CART ── -->
+<div class="floating-cart">🛒</div>
+
+<script>
+  // Wishlist toggle
+  document.querySelectorAll('.product-wishlist').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const isFilled = btn.textContent === '♥';
+      btn.textContent = isFilled ? '♡' : '♥';
+      btn.style.color = isFilled ? '' : '#FF8FA3';
+    });
+  });
+
+  // Category filter
+  document.querySelectorAll('.cat-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    });
+  });
+
+  // Cart count
+  let cartCount = 3;
+  document.querySelector('.floating-cart').addEventListener('click', () => {
+    cartCount++;
+    document.querySelector('.cart-badge').textContent = cartCount;
+    document.querySelector('.floating-cart').style.transform = 'scale(1.3)';
+    setTimeout(() => document.querySelector('.floating-cart').style.transform = '', 200);
+  });
+
+  // Newsletter
+  document.querySelector('.newsletter-form button').addEventListener('click', e => {
+    e.preventDefault();
+    const input = document.querySelector('.newsletter-form input');
+    if (input.value.includes('@')) {
+      input.value = '';
+      input.placeholder = '订阅成功！✨';
+      input.style.borderColor = '#A8D8A8';
+    }
+  });
+</script>
+</body>
+</html>
