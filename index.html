@@ -201,7 +201,10 @@
     width: 100%; height: 240px;
     background: var(--cream-dark);
     display: flex; align-items: center; justify-content: center;
-    font-size: 72px; position: relative; overflow: hidden;
+    position: relative; overflow: hidden;
+  }
+  .product-img img {
+    width: 100%; height: 100%; object-fit: cover;
   }
   .product-img .paw-bg {
     position: absolute; font-size: 100px; opacity: 0.08;
@@ -282,7 +285,7 @@
     text-align: center;
   }
   .preview-product {
-    font-size: 100px; margin-bottom: 16px;
+    height: 180px; margin-bottom: 16px;
   }
   .preview-label {
     font-size: 13px; font-weight: 700; color: var(--text-muted);
@@ -411,9 +414,10 @@
 
 <!-- ── NAV ── -->
 <nav>
-  <div class="nav-logo">
-    <span>🐾</span> PawTique
-  </div>
+<div class="nav-logo">
+  <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=60&h=60&fit=crop&auto=format&q=80" alt="logo" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--yellow-dark);">
+  PawTique
+</div>
   <ul class="nav-links">
     <li><a href="#">首页</a></li>
     <li><a href="#">全部商品</a></li>
@@ -433,12 +437,21 @@
 
 <!-- ── HERO ── -->
 <section class="hero">
-  <div class="hero-eyebrow">✨ 每一只毛孩子都值得独一无二</div>
-  <h1>为你的宠物<br><em>定制专属幸福</em></h1>
-  <p>手绘风格 · 精选材质 · 匠心制作<br>让爱宠的每一天都充满个性与温暖</p>
-  <div class="hero-btns">
-    <a href="#" class="btn-primary">开始定制 🐾</a>
-    <a href="#" class="btn-secondary">浏览商品</a>
+  <div style="display:flex;gap:40px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:900px;margin:0 auto;">
+    <div style="flex:1;min-width:280px;text-align:left;">
+      <div class="hero-eyebrow">✨ 每一只毛孩子都值得独一无二</div>
+      <h1>为你的宠物<br><em>定制专属幸福</em></h1>
+      <p>手绘风格 · 精选材质 · 匠心制作<br>让爱宠的每一天都充满个性与温暖</p>
+      <div class="hero-btns">
+        <a href="#" class="btn-primary">开始定制 🐾</a>
+        <a href="#" class="btn-secondary">浏览商品</a>
+      </div>
+    </div>
+    <div style="flex:1;min-width:280px;text-align:center;">
+      <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=450&fit=crop&auto=format&q=85"
+           alt="可爱的宠物狗"
+           style="width:100%;max-width:420px;border-radius:24px;border:4px solid var(--yellow-dark);box-shadow:8px 8px 0 var(--yellow);">
+    </div>
   </div>
 </section>
 
@@ -475,7 +488,7 @@
         <div class="paw-bg">🐾</div>
         <div class="product-tag">爆款</div>
         <div class="product-wishlist">♡</div>
-        🦮
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&h=380&fit=crop&auto=format&q=80" alt="手绘星星款定制项圈" loading="lazy">
       </div>
       <div class="product-info">
         <div class="product-category">宠物项圈</div>
@@ -500,7 +513,7 @@
         <div class="paw-bg">🐾</div>
         <div class="product-tag" style="background:#FF8FA3; color:white; border-color:#e06080;">新品</div>
         <div class="product-wishlist">♡</div>
-        🐕
+        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=500&h=380&fit=crop&auto=format&q=80" alt="萌爪肉球定制铭牌" loading="lazy">
       </div>
       <div class="product-info">
         <div class="product-category">铭牌吊坠</div>
@@ -523,7 +536,7 @@
       <div class="product-img" style="background: #E8F5E8;">
         <div class="paw-bg">🐾</div>
         <div class="product-wishlist">♡</div>
-        🐩
+        <img src="https://images.unsplash.com/photo-1518715308788-3005759f48f7?w=500&h=380&fit=crop&auto=format&q=80" alt="手绘涂鸦宠物背心" loading="lazy">
       </div>
       <div class="product-info">
         <div class="product-category">宠物服饰</div>
@@ -547,7 +560,7 @@
         <div class="paw-bg">🐾</div>
         <div class="product-tag" style="background:#FF8FA3; color:white; border-color:#e06080;">热卖</div>
         <div class="product-wishlist">♡</div>
-        🦮
+        <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?w=500&h=380&fit=crop&auto=format&q=80" alt="彩虹手绘伸缩牵引绳" loading="lazy">
       </div>
       <div class="product-info">
         <div class="product-category">牵引绳</div>
@@ -570,7 +583,7 @@
       <div class="product-img" style="background: #F0E8FF;">
         <div class="paw-bg">🐾</div>
         <div class="product-wishlist">♡</div>
-        🐈
+        <img src="https://images.unsplash.com/photo-1541781774-9a8028-d9f908e3f5a5?w=500&h=380&fit=crop&auto=format&q=80" alt="猫咪豆窝保暖垫" loading="lazy">
       </div>
       <div class="product-info">
         <div class="product-category">宠物窝垫</div>
@@ -593,7 +606,7 @@
         <div class="paw-bg">🐾</div>
         <div class="product-tag">定制款</div>
         <div class="product-wishlist">♡</div>
-        🐕
+        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=500&h=380&fit=crop&auto=format&q=80" alt="手绘名字定制项圈" loading="lazy">
       </div>
       <div class="product-info">
         <div class="product-category">宠物项圈</div>
@@ -628,7 +641,9 @@
       <a href="#" class="btn-primary">立即开始定制 →</a>
     </div>
     <div class="customize-preview">
-      <div class="preview-product float-anim">🦮</div>
+      <div class="preview-product float-anim">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=300&h=300&fit=crop&auto=format&q=80" alt="预览" style="width:100%;height:100%;object-fit:cover;border-radius:16px;">
+      </div>
       <div class="preview-label">预览效果</div>
       <div class="preview-name">★ 小豆 ★</div>
       <div class="preview-sub">柴犬 · 黄色项圈 · 星星图案</div>
@@ -648,7 +663,7 @@
       <div class="testimonial-stars">★★★★★</div>
       <div class="testimonial-text">"给我家柯基定制的项圈太可爱了！手绘风格独一无二，出门都被问在哪买的～做工也超精细，强烈推荐！"</div>
       <div class="testimonial-author">
-        <div class="author-avatar">🐶</div>
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=100&h=100&fit=crop&auto=format&q=80" alt="团团" style="width:42px;height:42px;border-radius:50%;object-fit:cover;border:2px solid var(--yellow);">
         <div>
           <div class="author-name">林小姐</div>
           <div class="author-pet">柯基 · 团团</div>
@@ -660,7 +675,7 @@
       <div class="testimonial-stars">★★★★★</div>
       <div class="testimonial-text">"定制了猫咪的名字铭牌，刻字清晰，材质安全，猫咪戴着完全没问题。包装也很精美，送朋友超有面子！"</div>
       <div class="testimonial-author">
-        <div class="author-avatar">🐱</div>
+        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=100&h=100&fit=crop&auto=format&q=80" alt="奶茶" style="width:42px;height:42px;border-radius:50%;object-fit:cover;border:2px solid var(--yellow);">
         <div>
           <div class="author-name">张先生</div>
           <div class="author-pet">英短 · 奶茶</div>
@@ -672,7 +687,7 @@
       <div class="testimonial-stars">★★★★★</div>
       <div class="testimonial-text">"已经是第三次回购了！每次定制都很满意，客服态度超好，会根据宠物特点给设计建议，很贴心～"</div>
       <div class="testimonial-author">
-        <div class="author-avatar">🐕</div>
+        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=100&h=100&fit=crop&auto=format&q=80" alt="旺财" style="width:42px;height:42px;border-radius:50%;object-fit:cover;border:2px solid var(--yellow);">
         <div>
           <div class="author-name">王阿姨</div>
           <div class="author-pet">金毛 · 旺财</div>
@@ -699,7 +714,8 @@
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <h3>🐾 PawTique</h3>
+      <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=80&h=80&fit=crop&auto=format&q=80" alt="logo" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:3px solid var(--yellow-dark);margin-bottom:8px;">
+      <h3>PawTique</h3>
       <p>专注宠物个性化定制，用心为每一只毛孩子打造独一无二的温暖好物。</p>
     </div>
     <div class="footer-col">
