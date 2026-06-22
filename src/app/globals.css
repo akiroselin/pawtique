@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────── PawTique 品牌色 (从原 HTML 移植) ─────────── */
+:root {
+  --yellow: #FFD84D;
+  --yellow-dark: #F5C200;
+  --yellow-light: #FFF3B0;
+  --cream: #FFF9EC;
+  --cream-dark: #FFF1D6;
+  --brown: #5C3D2E;
+  --brown-light: #8B5E3C;
+  --text: #3D2B1F;
+  --text-muted: #9C7B6B;
+  --white: #FFFFFF;
+  --shadow: rgba(92, 61, 46, 0.12);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.doodle-font { font-family: 'Caveat', cursive; }
+
+/* ─────────── 手绘风装饰 ─────────── */
+.doodle-border {
+  border: 3px dashed var(--yellow-dark);
+  border-radius: 24px;
+}
+
+.dashed-border-bottom {
+  border-bottom: 3px dashed var(--yellow);
+}
+
+/* ─────────── 悬浮卡片 ─────────── */
+.card-hover {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(92, 61, 46, 0.15);
+}
+
+/* ─────────── 浮动动画 ─────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.float-anim { animation: float 3s ease-in-out infinite; }
+
+/* ─────────── 滚动条 ─────────── */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--cream-dark); }
+::-webkit-scrollbar-thumb { background: var(--yellow-dark); border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: var(--brown-light); }
+
+/* ─────────── paw-print paw print marker ─────────── */
+.paw-divider {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  color: var(--yellow-dark); font-size: 20px;
+}
+.paw-divider::before,
+.paw-divider::after {
+  content: ''; flex: 1; height: 2px;
+  background: repeating-linear-gradient(90deg, var(--yellow-dark) 0 8px, transparent 8px 16px);
+}
+
+/* ─────────── Configure page layout ─────────── */
+.configurator-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+  height: calc(100vh - 80px);
+}
+@media (max-width: 1024px) {
+  .configurator-grid { grid-template-columns: 1fr; height: auto; }
+}
+
+/* ─────────── 3D canvas wrapper ─────────── */
+.canvas-wrap {
+  background: linear-gradient(135deg, #FFF3B0 0%, #FFE8F0 100%);
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ─────────── Sticker button ─────────── */
+.btn-paw {
+  background: var(--yellow);
+  color: var(--brown);
+  font-weight: 800;
+  padding: 14px 32px;
+  border-radius: 100px;
+  border: 3px solid var(--yellow-dark);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-paw:hover { background: var(--yellow-dark); transform: translateY(-2px); }
+.btn-paw:active { transform: translateY(0); }
+.btn-paw:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-ghost {
+  background: white;
+  color: var(--brown);
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 2px solid var(--yellow);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-ghost:hover { background: var(--yellow-light); }
+
+/* ─────────── Form chip selectors ─────────── */
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 16px; border-radius: 100px;
+  background: white; border: 2px solid var(--yellow);
+  color: var(--brown); font-weight: 700;
+  cursor: pointer; transition: all 0.2s; font-size: 13px;
+}
+.chip:hover { background: var(--yellow-light); }
+.chip-active { background: var(--yellow); border-color: var(--yellow-dark); }
+
+/* ─────────── Color swatch ─────────── */
+.color-swatch {
+  width: 36px; height: 36px; border-radius: 50%;
+  cursor: pointer; transition: transform 0.2s;
+  border: 3px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.color-swatch:hover { transform: scale(1.15); }
+.color-swatch-active {
+  outline: 3px solid var(--brown);
+  outline-offset: 2px;
+}
+
+/* ─────────── Loading skeleton ─────────── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--cream-dark) 25%, var(--yellow-light) 50%, var(--cream-dark) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
