@@ -11,7 +11,8 @@ export type ProductLine =
   | 'painting'
   | 'jewelry'
   | 'video'
-  | 'urn';
+  | 'urn'
+  | 'holo-pet';
 
 export interface ProductLineMeta {
   slug: ProductLine;
@@ -23,6 +24,41 @@ export interface ProductLineMeta {
   emoji: string;
   bg: string;
 }
+
+// ── 3D 全息宠物投影配置 ──
+export type HoloDevice = 'fan' | 'pyramid' | 'cube';
+
+export interface HoloPetConfig {
+  productLine: 'holo-pet';
+  petPhotoUrl: string | null;
+  petName: string;
+  videoTaskId: string | null;       // Kling 任务 ID
+  videoUrl: string | null;
+  device: HoloDevice;                // 硬件类型
+  deviceColor: 'white' | 'black' | 'wood';
+  motionSet: 'basic' | 'advanced';   // 5动作 vs 8动作+2交互
+  loopDuration: 30 | 60 | 120;       // 循环秒数
+  bgMusic: 'none' | 'calm' | 'happy' | 'sleep';
+  sound: boolean;                    // 音频驱动（眨眼/转头 同步）
+  customEngraving: string;           // 设备外壳刻字（最多 20 字）
+  rushDelivery: boolean;
+}
+
+export const DEFAULT_HOLO_PET: HoloPetConfig = {
+  productLine: 'holo-pet',
+  petPhotoUrl: null,
+  petName: '',
+  videoTaskId: null,
+  videoUrl: null,
+  device: 'fan',
+  deviceColor: 'white',
+  motionSet: 'basic',
+  loopDuration: 60,
+  bgMusic: 'calm',
+  sound: false,
+  customEngraving: '',
+  rushDelivery: false,
+};
 
 // ── 羊毛毡配置 ──
 export interface WoolFeltConfig {
@@ -164,6 +200,31 @@ export function calcAIArtPrice(c: AIArtConfig): PriceQuote {
     material: matAdj,
     rush: 0,
     total: base + sizeAdj + matAdj,
+    currency: 'GBP',
+  };
+}
+
+// ── 3D 全息宠物投影价格 ──
+// 设备基础价 + AI 复活视频 + 加项
+export function calcHoloPetPrice(c: HoloPetConfig): PriceQuote {
+  // 设备硬件
+  const deviceBase = { fan: 120, pyramid: 90, cube: 200 }[c.device];
+  // AI 复活视频：basic £29, advanced £49
+  const videoBase = c.motionSet === 'basic' ? 29 : 49;
+  // 颜色升级
+  const colorAdj = c.deviceColor === 'wood' ? 25 : c.deviceColor === 'black' ? 15 : 0;
+  // 音频驱动（advanced 才有意义）
+  const soundAdj = c.sound && c.motionSet === 'advanced' ? 35 : 0;
+  // 加急
+  const rushAdj = c.rushDelivery ? 35 : 0;
+  const base = deviceBase + videoBase;
+
+  return {
+    base,
+    size: colorAdj,
+    material: soundAdj,
+    rush: rushAdj,
+    total: base + colorAdj + soundAdj + rushAdj,
     currency: 'GBP',
   };
 }

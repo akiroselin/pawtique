@@ -7,6 +7,7 @@ import type {
   WoolFeltConfig,
   FigurineConfig,
   AIArtConfig,
+  HoloPetConfig,
   ProductLine,
 } from '@/types';
 
@@ -15,12 +16,14 @@ interface ConfiguratorState {
   woolFelt: WoolFeltConfig;
   figurine: FigurineConfig;
   aiArt: AIArtConfig;
+  holoPet: HoloPetConfig;
 
   // actions
   setProductLine: (line: ProductLine) => void;
   updateWoolFelt: (partial: Partial<WoolFeltConfig>) => void;
   updateFigurine: (partial: Partial<FigurineConfig>) => void;
   updateAIArt: (partial: Partial<AIArtConfig>) => void;
+  updateHoloPet: (partial: Partial<HoloPetConfig>) => void;
   setPetPhoto: (url: string) => void;
   reset: () => void;
 }
@@ -63,6 +66,21 @@ export const useConfigurator = create<ConfiguratorState>((set) => ({
     size: '12x16',
     outputMaterial: 'framed',
   },
+  holoPet: {
+    productLine: 'holo-pet',
+    petPhotoUrl: null,
+    petName: '',
+    videoTaskId: null,
+    videoUrl: null,
+    device: 'fan',
+    deviceColor: 'white',
+    motionSet: 'basic',
+    loopDuration: 60,
+    bgMusic: 'calm',
+    sound: false,
+    customEngraving: '',
+    rushDelivery: false,
+  },
 
   setProductLine: (line) => set({ productLine: line }),
   updateWoolFelt: (partial) =>
@@ -71,6 +89,8 @@ export const useConfigurator = create<ConfiguratorState>((set) => ({
     set((state) => ({ figurine: { ...state.figurine, ...partial } })),
   updateAIArt: (partial) =>
     set((state) => ({ aiArt: { ...state.aiArt, ...partial } })),
+  updateHoloPet: (partial) =>
+    set((state) => ({ holoPet: { ...state.holoPet, ...partial } })),
   setPetPhoto: (url) =>
     set((state) => {
       if (state.productLine === 'wool-felt') {
@@ -78,6 +98,9 @@ export const useConfigurator = create<ConfiguratorState>((set) => ({
       }
       if (state.productLine === 'figurine') {
         return { figurine: { ...state.figurine, petPhotoUrls: [url] } };
+      }
+      if (state.productLine === 'holo-pet') {
+        return { holoPet: { ...state.holoPet, petPhotoUrl: url } };
       }
       return { aiArt: { ...state.aiArt, petPhotoUrl: url } };
     }),

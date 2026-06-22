@@ -19,9 +19,16 @@ export default function HomePage() {
               <span className="text-[10px] bg-yellow text-brown px-1.5 py-0.5 rounded-full">NEW</span>
             </Link>
           </li>
-          <li><Link href="#how" className="font-bold hover:text-yellow-dark transition">如何定制</Link></li>
-          <li><Link href="#stories" className="font-bold hover:text-yellow-dark transition">毛孩故事</Link></li>
-          <li><Link href="#about" className="font-bold hover:text-yellow-dark transition">关于我们</Link></li>
+          <li>
+            <Link href="/configure/holo-pet" className="font-bold hover:text-[#7B5BFF] transition flex items-center gap-1">
+              🌀 全息投影
+              <span className="text-[10px] bg-[#7B5BFF] text-white px-1.5 py-0.5 rounded-full">3D</span>
+            </Link>
+          </li>
+          <li><Link href="/pricing" className="font-bold hover:text-yellow-dark transition">价格</Link></li>
+          <li><Link href="/stories" className="font-bold hover:text-yellow-dark transition">毛孩故事</Link></li>
+          <li><Link href="/faq" className="font-bold hover:text-yellow-dark transition">FAQ</Link></li>
+          <li><Link href="/about" className="font-bold hover:text-yellow-dark transition">关于</Link></li>
         </ul>
         <div className="flex gap-3">
           <button className="w-10 h-10 rounded-full border-2 border-yellow bg-white hover:bg-yellow-light transition" aria-label="搜索">🔍</button>
@@ -56,6 +63,18 @@ export default function HomePage() {
           <Link href="/products" className="btn-ghost">
             浏览全部产品
           </Link>
+        </div>
+
+        {/* ── 社会证明条 ── */}
+        <div className="mt-12 inline-flex flex-wrap items-center justify-center gap-4 md:gap-8 bg-white/70 backdrop-blur rounded-full px-6 py-3 border-2 border-yellow/60">
+          <div className="flex items-center gap-1 text-sm font-bold">
+            <span className="text-yellow-dark">★★★★★</span>
+            <span>4.9/5</span>
+          </div>
+          <div className="text-sm font-bold">🐾 500+ 宠物已定制</div>
+          <div className="text-sm font-bold">🎨 12 位签约艺术家</div>
+          <div className="text-sm font-bold">🇪🇺 8 国配送</div>
+          <div className="text-sm font-bold">💯 100% 退款保证</div>
         </div>
       </section>
 
@@ -97,6 +116,50 @@ export default function HomePage() {
                 </div>
               </div>
               <span className="btn-paw text-sm whitespace-nowrap">立即复活 →</span>
+            </div>
+          </Link>
+
+          {/* 置顶卡片：3D 全息投影（3D NEW） */}
+          <Link
+            href="/configure/holo-pet"
+            className="card-hover sm:col-span-2 lg:col-span-3 xl:col-span-4 rounded-3xl overflow-hidden block relative"
+            style={{ background: 'linear-gradient(135deg, #E8E0FF 0%, #1a1a2e 50%, #7B5BFF 100%)' }}
+          >
+            <div className="p-6 md:p-8 flex items-center gap-6 text-cream">
+              <div className="text-7xl md:text-8xl" style={{ filter: 'drop-shadow(0 0 20px rgba(123, 91, 255, 0.8))' }}>
+                🌀
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-[#7B5BFF] text-white text-xs font-black px-3 py-1 rounded-full border-2 border-white/30">
+                    🌀 3D · 全息投影
+                  </span>
+                  <span className="text-xs opacity-80">AI 复活视频 + 桌面全息仪一体</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black mb-2">
+                  它<span style={{ fontFamily: 'Caveat, cursive', fontSize: '1.3em', color: '#FFD84D' }}>悬浮</span>在你桌面上
+                </h3>
+                <p className="text-sm opacity-80 mb-3 max-w-2xl">
+                  上传照片 → AI 生成 8 动作 + 2 交互 → 预装到风扇/金字塔/迷你 LCD → 它就在你面前 · 3D 浮动
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <span className="chip text-xs" style={{ background: 'rgba(255,255,255,0.15)', borderColor: 'rgba(255,255,255,0.3)', color: '#FFF' }}>
+                    🌀 风扇全息 £120
+                  </span>
+                  <span className="chip text-xs" style={{ background: 'rgba(255,255,255,0.15)', borderColor: 'rgba(255,255,255,0.3)', color: '#FFF' }}>
+                    🔺 金字塔 £90
+                  </span>
+                  <span className="chip text-xs" style={{ background: 'rgba(255,255,255,0.15)', borderColor: 'rgba(255,255,255,0.3)', color: '#FFF' }}>
+                    📺 LCD 立方 £200
+                  </span>
+                  <span className="chip text-xs" style={{ background: '#FFD84D', color: '#5C3D2E', borderColor: '#F5C200' }}>
+                    🎬 8 动作 + 2 交互 £49
+                  </span>
+                </div>
+              </div>
+              <span className="text-sm whitespace-nowrap px-5 py-3 rounded-2xl bg-[#7B5BFF] border-2 border-white/30 text-white font-black">
+                立即配置 →
+              </span>
             </div>
           </Link>
           {PRODUCTS.map((p) => (
@@ -161,9 +224,87 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── 客户故事（3 则） ── */}
+      <section id="stories" className="px-6 md:px-10 py-20 bg-cream-dark">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="paw-divider mb-4"><span>💝</span></div>
+            <h2 className="text-3xl md:text-4xl font-black mb-3">它们的故事</h2>
+            <p className="text-muted">三位主人分享他们和 PawTique 的回忆</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                pet: '小豆', emoji: '🐕', species: '柴犬 · 14 岁',
+                bg: '#FFF3B0',
+                text: '收到羊毛毡小豆的那天，我把它放在玄关每天回家第一眼看到的位置。三个月过去了，它陪我度过了最难的日子。',
+                owner: 'Lin · 伦敦',
+              },
+              {
+                pet: 'Mocha', emoji: '🐈', species: '英短 · 11 岁',
+                bg: '#FFE8F0',
+                text: '复活视频里她眨眼的那一瞬间，我觉得她又活过来了一次。现在视频放在我手机首屏，每天开机都看到。',
+                owner: 'Elena · 阿姆斯特丹',
+              },
+              {
+                pet: 'Cooper', emoji: '🦮', species: '金毛 · 13 岁',
+                bg: '#FFF1D6',
+                text: '他走的那天是我生日。本来想放弃庆祝，但爸妈送了我这幅油画。现在客厅最显眼的位置挂着它。',
+                owner: 'James · 柏林',
+              },
+            ].map((s, i) => (
+              <article key={i} className="card-hover bg-white rounded-3xl border-[3px] border-dashed border-yellow/60 overflow-hidden">
+                <div className="aspect-[4/3] relative" style={{ background: s.bg }}>
+                  <div className="absolute inset-0 flex items-center justify-center text-8xl">{s.emoji}</div>
+                </div>
+                <div className="p-5">
+                  <div className="flex items-baseline justify-between mb-2">
+                    <h3 className="font-black text-lg">★ {s.pet} ★</h3>
+                    <span className="text-xs text-muted">{s.owner}</span>
+                  </div>
+                  <div className="text-xs text-muted mb-2">{s.species}</div>
+                  <p className="text-sm text-brown-light leading-relaxed">{s.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/stories" className="btn-ghost">
+              看更多故事 →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ 折叠 3 条 ── */}
+      <section className="px-6 md:px-10 py-20 max-w-4xl mx-auto">
+        <div className="text-center mb-10">
+          <div className="paw-divider mb-4"><span>❓</span></div>
+          <h2 className="text-3xl md:text-4xl font-black mb-3">常见问题</h2>
+        </div>
+        <div className="space-y-3">
+          {[
+            { q: '会不会做出来不像？', a: '承诺：不像全额退款。所有手工品类有 1 次免费修改。AI 复活和 3D 雕塑在配置阶段就能实时预览。' },
+            { q: '多久能收到？', a: '虚拟复活 1-3 分钟 · AI 艺术画 72 小时 · 羊毛毡 / 3D 雕塑 14-21 天 · 油画 21-28 天。加急选项见价格页。' },
+            { q: '能送到哪些国家？', a: '欧洲主要国家：英国 / 德国 / 法国 / 荷兰 / 意大利 / 西班牙 / 比利时 / 奥地利等。瑞士 / 挪威 +£20。' },
+          ].map((f, i) => (
+            <details key={i} className="bg-white rounded-2xl border-2 border-yellow/60 group">
+              <summary className="px-5 py-4 font-bold cursor-pointer flex items-center justify-between">
+                {f.q}
+                <span className="text-2xl text-yellow-dark group-open:rotate-45 transition-transform">+</span>
+              </summary>
+              <div className="px-5 pb-5 text-sm text-brown-light leading-relaxed">{f.a}</div>
+            </details>
+          ))}
+        </div>
+        <div className="text-center mt-6">
+          <Link href="/faq" className="btn-ghost">看全部 20 个问题 →</Link>
+        </div>
+      </section>
+
       {/* ── FOOTER ── */}
       <footer className="bg-brown text-cream px-6 md:px-10 py-12">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-5 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
               <span className="text-2xl">🐾</span>
@@ -174,16 +315,26 @@ export default function HomePage() {
           <div>
             <h4 className="font-black mb-3">定制馆</h4>
             <ul className="space-y-1 text-sm opacity-80">
-              <li>羊毛毡肖像</li>
-              <li>3D打印雕塑</li>
-              <li>AI艺术画</li>
-              <li>手绘肖像</li>
+              <li><Link href="/configure/wool-felt">羊毛毡肖像</Link></li>
+              <li><Link href="/configure/figurine">3D 雕塑</Link></li>
+              <li><Link href="/configure/ai-art">AI 艺术画</Link></li>
+              <li><Link href="/configure/virtual-pet">✨ 复活服务</Link></li>
+              <li><Link href="/configure/holo-pet">🌀 全息投影</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-black mb-3">了解</h4>
+            <ul className="space-y-1 text-sm opacity-80">
+              <li><Link href="/about">关于我们</Link></li>
+              <li><Link href="/pricing">价格</Link></li>
+              <li><Link href="/stories">毛孩故事</Link></li>
+              <li><Link href="/faq">常见问题</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-black mb-3">服务</h4>
             <ul className="space-y-1 text-sm opacity-80">
-              <li>2次免费修改</li>
+              <li>2 次免费修改</li>
               <li>欧洲配送 5-7 天</li>
               <li>私密包装</li>
               <li>不满意全额退款</li>
@@ -192,13 +343,16 @@ export default function HomePage() {
           <div>
             <h4 className="font-black mb-3">联系</h4>
             <ul className="space-y-1 text-sm opacity-80">
-              <li>hello@pawtique.studio</li>
+              <li><Link href="/contact">hello@pawtique.studio</Link></li>
               <li>伦敦 / 阿姆斯特丹</li>
+              <li><Link href="/contact">联系客服 →</Link></li>
             </ul>
           </div>
         </div>
         <div className="max-w-6xl mx-auto mt-8 pt-6 border-t border-cream/20 text-center text-xs opacity-60">
-          © 2026 PawTique Studio · Made with ❤️ for every furry friend
+          © 2026 PawTique Studio · Made with ❤️ for every furry friend ·{' '}
+          <Link href="/privacy" className="underline">Privacy</Link> ·{' '}
+          <Link href="/terms" className="underline">Terms</Link>
         </div>
       </footer>
     </main>
