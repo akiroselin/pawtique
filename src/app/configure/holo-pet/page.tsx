@@ -18,9 +18,9 @@ const DEVICES: Array<{
   emoji: string;
   size: string;
 }> = [
-  { id: 'fan',     label: '风扇式全息', desc: '25cm · 桌面级 · 3D 浮动效果最强',  emoji: '🌀', size: '25 × 25 × 6 cm' },
-  { id: 'pyramid', label: '金字塔全息', desc: '12cm · 迷你 · 透明金字塔反射',    emoji: '🔺', size: '12 × 12 × 10 cm' },
-  { id: 'cube',    label: '迷你立方体', desc: '8寸 LCD · 视频+音频一体',          emoji: '📺', size: '20 × 15 × 5 cm' },
+  // 风扇式全息已下架 — 专注迷你投影箱
+  { id: 'pyramid', label: '金字塔迷你投影箱', desc: '12cm · 桌面级 · 透明金字塔反射 · 静音', emoji: '🔺', size: '12 × 12 × 10 cm' },
+  { id: 'cube',    label: 'LCD 迷你投影箱',    desc: '8寸 LCD · 视频+音频一体 · 触摸控制',  emoji: '📺', size: '20 × 15 × 5 cm' },
 ];
 
 const MOTION_SETS = {
@@ -270,7 +270,7 @@ export default function HoloPetPage() {
                         <div className="font-black">{d.label}</div>
                         <div className="text-xs text-muted">{d.desc}</div>
                       </div>
-                      <div className="text-xs font-bold text-[#7B5BFF]">£{d.id === 'fan' ? 120 : d.id === 'pyramid' ? 90 : 200}</div>
+                      <div className="text-xs font-bold text-[#7B5BFF]">£{d.id === 'cube' ? 200 : 90}</div>
                     </button>
                   ))}
                 </div>

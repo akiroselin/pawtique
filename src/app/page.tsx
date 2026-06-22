@@ -137,20 +137,17 @@ export default function HomePage() {
                   <span className="text-xs opacity-80">AI 复活视频 + 桌面全息仪一体</span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-black mb-2">
-                  它<span style={{ fontFamily: 'Caveat, cursive', fontSize: '1.3em', color: '#FFD84D' }}>悬浮</span>在你桌面上
+                  它<span style={{ fontFamily: 'Caveat, cursive', fontSize: '1.3em', color: '#FFD84D' }}>在迷你投影箱里</span>陪着你
                 </h3>
                 <p className="text-sm opacity-80 mb-3 max-w-2xl">
-                  上传照片 → AI 生成 8 动作 + 2 交互 → 预装到风扇/金字塔/迷你 LCD → 它就在你面前 · 3D 浮动
+                  上传照片 → AI 生成 8 动作 + 2 交互 → 预装到迷你投影箱 → 它就在你桌面上陪着你
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="chip text-xs" style={{ background: 'rgba(255,255,255,0.15)', borderColor: 'rgba(255,255,255,0.3)', color: '#FFF' }}>
-                    🌀 风扇全息 £120
+                    🔺 金字塔迷你投影箱 £90
                   </span>
                   <span className="chip text-xs" style={{ background: 'rgba(255,255,255,0.15)', borderColor: 'rgba(255,255,255,0.3)', color: '#FFF' }}>
-                    🔺 金字塔 £90
-                  </span>
-                  <span className="chip text-xs" style={{ background: 'rgba(255,255,255,0.15)', borderColor: 'rgba(255,255,255,0.3)', color: '#FFF' }}>
-                    📺 LCD 立方 £200
+                    📺 LCD 迷你投影箱 £200
                   </span>
                   <span className="chip text-xs" style={{ background: '#FFD84D', color: '#5C3D2E', borderColor: '#F5C200' }}>
                     🎬 8 动作 + 2 交互 £49
