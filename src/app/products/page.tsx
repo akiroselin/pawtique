@@ -10,6 +10,27 @@ export default function ProductsPage() {
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* 置顶：虚拟宠物复活 */}
+        <Link
+          href="/configure/virtual-pet"
+          className="sm:col-span-2 lg:col-span-3 card-hover rounded-3xl overflow-hidden block relative"
+          style={{ background: 'linear-gradient(135deg, #FFE8F0 0%, #FFF3B0 50%, #E8F4FF 100%)' }}
+        >
+          <div className="p-6 md:p-8 flex items-center gap-6">
+            <div className="text-7xl">✨</div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-[#FF8FA3] text-white text-xs font-black px-3 py-1 rounded-full border-2 border-[#e06080]">
+                  🔥 NEW · 复活服务
+                </span>
+              </div>
+              <h3 className="text-2xl font-black mb-2">让它的眼睛再动一次</h3>
+              <p className="text-sm text-brown-light mb-2">Kling AI 驱动 · 1-3 分钟出片 · £29 起</p>
+            </div>
+            <span className="btn-paw text-sm whitespace-nowrap">立即复活 →</span>
+          </div>
+        </Link>
+
         {PRODUCTS.map((p) => (
           <Link
             key={p.slug}

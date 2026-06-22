@@ -13,6 +13,12 @@ export default function HomePage() {
         </Link>
         <ul className="hidden md:flex gap-8 list-none">
           <li><Link href="/products" className="font-bold hover:text-yellow-dark transition">定制馆</Link></li>
+          <li>
+            <Link href="/configure/virtual-pet" className="font-bold hover:text-yellow-dark transition flex items-center gap-1">
+              ✨ 复活服务
+              <span className="text-[10px] bg-yellow text-brown px-1.5 py-0.5 rounded-full">NEW</span>
+            </Link>
+          </li>
           <li><Link href="#how" className="font-bold hover:text-yellow-dark transition">如何定制</Link></li>
           <li><Link href="#stories" className="font-bold hover:text-yellow-dark transition">毛孩故事</Link></li>
           <li><Link href="#about" className="font-bold hover:text-yellow-dark transition">关于我们</Link></li>
@@ -44,6 +50,9 @@ export default function HomePage() {
           <Link href="/configure/wool-felt" className="btn-paw text-base">
             🐑 开始定制羊毛毡 →
           </Link>
+          <Link href="/configure/virtual-pet" className="btn-paw text-base" style={{ background: '#FF8FA3', borderColor: '#e06080' }}>
+            ✨ 复活我的宠物 →
+          </Link>
           <Link href="/products" className="btn-ghost">
             浏览全部产品
           </Link>
@@ -59,6 +68,37 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {/* 置顶卡片：虚拟宠物复活（NEW） */}
+          <Link
+            href="/configure/virtual-pet"
+            className="card-hover sm:col-span-2 lg:col-span-3 xl:col-span-4 rounded-3xl overflow-hidden block relative"
+            style={{ background: 'linear-gradient(135deg, #FFE8F0 0%, #FFF3B0 50%, #E8F4FF 100%)' }}
+          >
+            <div className="p-6 md:p-8 flex items-center gap-6">
+              <div className="text-7xl md:text-8xl">✨</div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-[#FF8FA3] text-white text-xs font-black px-3 py-1 rounded-full border-2 border-[#e06080]">
+                    🔥 NEW · 复活服务
+                  </span>
+                  <span className="text-xs text-muted">⚡ Kling AI 驱动 · 1-3 分钟出片</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-black mb-2">
+                  让它的眼睛<span className="doodle-font text-yellow-dark text-3xl md:text-5xl not-italic">再动一次</span>
+                </h3>
+                <p className="text-sm text-brown-light mb-3 max-w-2xl">
+                  上传一张正脸照 → AI 生成 5-10 秒动态视频 → 眨眼转头呼吸都自然 → 下载 MP4 + GIF · £29 起
+                </p>
+                <div className="flex gap-2">
+                  <span className="chip text-xs">👁️ 温柔眨眼</span>
+                  <span className="chip text-xs">🔄 转头回眸</span>
+                  <span className="chip text-xs">😴 安静沉睡</span>
+                  <span className="chip text-xs">😊 开心微笑</span>
+                </div>
+              </div>
+              <span className="btn-paw text-sm whitespace-nowrap">立即复活 →</span>
+            </div>
+          </Link>
           {PRODUCTS.map((p) => (
             <Link
               key={p.slug}
