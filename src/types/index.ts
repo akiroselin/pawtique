@@ -12,7 +12,9 @@ export type ProductLine =
   | 'jewelry'
   | 'video'
   | 'urn'
-  | 'holo-pet';
+  | 'holo-pet'
+  | 'phone-case'
+  | 'apparel';
 
 export interface ProductLineMeta {
   slug: ProductLine;

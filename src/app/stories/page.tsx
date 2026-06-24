@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ProductImage, { type ProductLineKey } from '@/components/ProductImage';
 
 interface Story {
   petName: string;
@@ -7,7 +8,7 @@ interface Story {
   owner: string;
   excerpt: string;
   product: string;
-  imageEmoji: string;
+  imageLine: ProductLineKey;
   bg: string;
 }
 
@@ -19,7 +20,7 @@ const STORIES: Story[] = [
     owner: 'Lin',
     excerpt: '小豆陪伴了我从大学到工作，从租房到买房。决定去做一只羊毛毡他，这样每天回家都能看到他躺在玄关的样子。收到的时候我真的哭了...',
     product: '羊毛毡定制肖像',
-    imageEmoji: '🐕',
+    imageLine: 'wool-felt',
     bg: '#FFF3B0',
   },
   {
@@ -29,7 +30,7 @@ const STORIES: Story[] = [
     owner: 'Elena',
     excerpt: 'Mocha 是我从抑郁症里拉回来的天使。给她做了一个 3D 雕塑放在书桌上，每天看着我工作。复活视频里她眨眼的那一瞬间，我觉得她又活过来了一次。',
     product: '3D 打印雕塑 + 虚拟复活',
-    imageEmoji: '🐈',
+    imageLine: 'figurine',
     bg: '#FFE8F0',
   },
   {
@@ -39,7 +40,7 @@ const STORIES: Story[] = [
     owner: 'James',
     excerpt: '他走的那天正好是我的生日。本来想放弃庆祝，但爸妈给我定制了一幅油画挂在客厅。现在每次看到都觉得他在笑。',
     product: '手绘油画肖像',
-    imageEmoji: '🦮',
+    imageLine: 'painting',
     bg: '#FFF1D6',
   },
   {
@@ -49,7 +50,7 @@ const STORIES: Story[] = [
     owner: 'Yuki',
     excerpt: '把她的毛发做成了一条项链贴身戴。过敏的朋友可以碰我的脖子，这是只有我知道的秘密。',
     product: '高级树脂首饰',
-    imageEmoji: '🐰',
+    imageLine: 'jewelry',
     bg: '#F0E8FF',
   },
 ];
@@ -72,23 +73,26 @@ export default function StoriesPage() {
       {/* ── Filter bar (UI only for MVP) ── */}
       <div className="flex flex-wrap gap-2 justify-center mb-8">
         <button className="chip chip-active">全部</button>
-        <button className="chip">🐕 狗狗</button>
-        <button className="chip">🐈 猫咪</button>
-        <button className="chip">🐰 异宠</button>
+        <button className="chip">狗</button>
+        <button className="chip">猫</button>
+        <button className="chip">异宠</button>
         <button className="chip">羊毛毡</button>
         <button className="chip">3D 雕塑</button>
-        <button className="chip">复活视频</button>
+        <button className="chip">油画</button>
       </div>
 
       {/* ── Story Cards ── */}
       <div className="grid sm:grid-cols-2 gap-6">
         {STORIES.map((s, i) => (
           <article key={i} className="card-hover bg-white rounded-3xl border-[3px] border-dashed border-yellow/60 hover:border-yellow-dark overflow-hidden">
-            <div className="aspect-video relative" style={{ background: s.bg }}>
-              <div className="absolute inset-0 flex items-center justify-center text-9xl">
-                {s.imageEmoji}
-              </div>
-              <div className="absolute top-3 left-3 bg-yellow text-brown text-xs font-black px-3 py-1 rounded-full border-2 border-yellow-dark">
+            <div className="aspect-video relative bg-white">
+              <ProductImage
+                line={s.imageLine}
+                size="hero"
+                fallback="🐾"
+                className="w-full h-full !rounded-none"
+              />
+              <div className="absolute top-3 left-3 z-10 bg-yellow text-brown text-xs font-black px-3 py-1 rounded-full border-2 border-yellow-dark">
                 {s.product}
               </div>
             </div>

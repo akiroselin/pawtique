@@ -1,0 +1,3443 @@
+{
+  "summary": {
+    "total_products": 174,
+    "total_files": 214,
+    "by_slug": {
+      "apparel": 58,
+      "urn": 9,
+      "jewelry": 53,
+      "figurine": 26,
+      "wool-felt": 5,
+      "phone-case": 8,
+      "painting": 15
+    },
+    "excluded_count": 87
+  },
+  "product_lines": {
+    "apparel": [
+      {
+        "product_group_id": "G166",
+        "category": "相框纪念册",
+        "pet_type": "猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8477.JPG",
+          "IMG_8478.JPG"
+        ],
+        "description": "黑色相框内包含两张白色猫咪照片和两个金色猫爪印泥 / 白色相框内左侧有金色宠物爪印，旁边写有Mini字样，右侧上下方各有一张猫咪照片",
+        "descriptions": [
+          "黑色相框内包含两张白色猫咪照片和两个金色猫爪印泥",
+          "白色相框内左侧有金色宠物爪印，旁边写有Mini字样，右侧上下方各有一张猫咪照片"
+        ],
+        "visible_text": "Mini / 给自家宠物留个脚印纪念 免费打印2张宠物照片",
+        "main_image": "IMG_8477.JPG"
+      },
+      {
+        "product_group_id": "G214",
+        "category": "冰箱贴",
+        "pet_type": "狗|猫|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8562.JPG",
+          "IMG_8563.JPG"
+        ],
+        "description": "多个不同品种宠物的定制冰箱贴，有猫和狗的形象 / 冰箱上贴有多个宠物猫形象的定制冰箱贴，还有一个卡通鸭子贴纸写着‘先喂猫’",
+        "descriptions": [
+          "多个不同品种宠物的定制冰箱贴，有猫和狗的形象",
+          "冰箱上贴有多个宠物猫形象的定制冰箱贴，还有一个卡通鸭子贴纸写着‘先喂猫’"
+        ],
+        "visible_text": "冰箱贴定制 / 宠物冰箱贴, 来图定制Diy, 先喂猫, 中国能效标识",
+        "main_image": "IMG_8562.JPG"
+      },
+      {
+        "product_group_id": "G225",
+        "category": "帆布袋",
+        "pet_type": "狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8621.JPG",
+          "IMG_8625.JPG"
+        ],
+        "description": "白色帆布袋上印着一只金毛犬的头像 / 帆布袋上印有一只喜乐蒂牧羊犬的头像",
+        "descriptions": [
+          "白色帆布袋上印着一只金毛犬的头像",
+          "帆布袋上印有一只喜乐蒂牧羊犬的头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8621.JPG"
+      },
+      {
+        "product_group_id": "G154",
+        "category": "抱枕",
+        "pet_type": "狗|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8626.JPG",
+          "IMG_8630.JPG"
+        ],
+        "description": "一个手拿着印有小狗头像的异形抱枕 / 一个人拿着印有橘猫头像的猫头形状抱枕",
+        "descriptions": [
+          "一个手拿着印有小狗头像的异形抱枕",
+          "一个人拿着印有橘猫头像的猫头形状抱枕"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8626.JPG"
+      },
+      {
+        "product_group_id": "G227",
+        "category": "帆布袋",
+        "pet_type": "狗",
+        "item_count": 3,
+        "files": [
+          "IMG_8627.JPG",
+          "IMG_8628.JPG",
+          "IMG_8631.JPG"
+        ],
+        "description": "帆布袋上印着一只黑白相间的小狗图案 / 白色帆布袋上印着一只白色小狗的头像，小狗脸颊两侧有红色唇印和草莓图案 / 帆布袋上印着一只德国牧羊犬的大头贴，狗狗脸颊两侧有粉色腮红图案",
+        "descriptions": [
+          "帆布袋上印着一只黑白相间的小狗图案",
+          "帆布袋上印着一只德国牧羊犬的大头贴，狗狗脸颊两侧有粉色腮红图案",
+          "白色帆布袋上印着一只白色小狗的头像，小狗脸颊两侧有红色唇印和草莓图案"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8627.JPG"
+      },
+      {
+        "product_group_id": "G253",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8668.JPG",
+          "IMG_8670.JPG"
+        ],
+        "description": "帽子上绣着一只小狗头像，人物抱着一只小狗 / 一只白色小狗旁边放着一顶蓝色帽子，帽子上绣有小狗头像",
+        "descriptions": [
+          "一只白色小狗旁边放着一顶蓝色帽子，帽子上绣有小狗头像",
+          "帽子上绣着一只小狗头像，人物抱着一只小狗"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8668.JPG"
+      },
+      {
+        "product_group_id": "G255",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 3,
+        "files": [
+          "IMG_8673.JPG",
+          "IMG_8676.JPG",
+          "IMG_8677.JPG"
+        ],
+        "description": "蓝色棒球帽上绣有雪纳瑞犬的头像 / 一只戴着彩色背带的杰克罗素梗犬和一顶刺绣有该犬种头像的灰色棒球帽 / 深灰色棒球帽上绣有小猎犬头像",
+        "descriptions": [
+          "一只戴着彩色背带的杰克罗素梗犬和一顶刺绣有该犬种头像的灰色棒球帽",
+          "蓝色棒球帽上绣有雪纳瑞犬的头像",
+          "深灰色棒球帽上绣有小猎犬头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8673.JPG"
+      },
+      {
+        "product_group_id": "G259",
+        "category": "刺绣服装",
+        "pet_type": "狗|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8681.JPG",
+          "IMG_8682.JPG"
+        ],
+        "description": "黑色T恤上印有一只柯基犬图案，下方有Corgi字样 / 白色T恤上印着猫咪图案和‘定制宠物痛衣’字样",
+        "descriptions": [
+          "白色T恤上印着猫咪图案和‘定制宠物痛衣’字样",
+          "黑色T恤上印有一只柯基犬图案，下方有Corgi字样"
+        ],
+        "visible_text": "定制宠物痛衣 / Corgi",
+        "main_image": "IMG_8681.JPG"
+      },
+      {
+        "product_group_id": "G235",
+        "category": "帆布袋",
+        "pet_type": "猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8755.JPG",
+          "IMG_8756.JPG"
+        ],
+        "description": "左侧为穿着衣服的暹罗猫，右侧为印有该暹罗猫形象和英文的定制帆布袋 / 白色帆布袋上印有暹罗猫图案和英文装饰文字，旁边有上传照片和定制示例的提示贴纸",
+        "descriptions": [
+          "左侧为穿着衣服的暹罗猫，右侧为印有该暹罗猫形象和英文的定制帆布袋",
+          "白色帆布袋上印有暹罗猫图案和英文装饰文字，旁边有上传照片和定制示例的提示贴纸"
+        ],
+        "visible_text": "照片定制帆布袋, SMILE..., SOSWEET LOVE, 水洗不掉色|闪电发货|一对一定制| / YOUR PHOTO, SMILE, SOSWEET LOVE, UPLOAD PHOTO, CUS",
+        "main_image": "IMG_8755.JPG"
+      },
+      {
+        "product_group_id": "G067",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8653.PNG"
+        ],
+        "description": "四个带有不同宠物狗图案的保温杯，杯身印有宠物狗照片和文字，旁边有一本杂志。",
+        "descriptions": [
+          "四个带有不同宠物狗图案的保温杯，杯身印有宠物狗照片和文字，旁边有一本杂志。"
+        ],
+        "visible_text": "萌宠伴你每一天, 便携提绳, 双层防烫, 萌趣插画, XIAOGOU, I'M SUPER, LOV",
+        "main_image": "IMG_8653.PNG"
+      },
+      {
+        "product_group_id": "G150",
+        "category": "抱枕",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8252.JPG"
+        ],
+        "description": "抱枕上印着一只橘白相间的小猫图案，小猫仰卧着，显得十分可爱",
+        "descriptions": [
+          "抱枕上印着一只橘白相间的小猫图案，小猫仰卧着，显得十分可爱"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8252.JPG"
+      },
+      {
+        "product_group_id": "G168",
+        "category": "相框纪念册",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8494.JPG"
+        ],
+        "description": "木质和黑色相框内含宠物照片及红色/黑色爪印图案",
+        "descriptions": [
+          "木质和黑色相框内含宠物照片及红色/黑色爪印图案"
+        ],
+        "visible_text": "STOP! Do not touch turn card over",
+        "main_image": "IMG_8494.JPG"
+      },
+      {
+        "product_group_id": "G210",
+        "category": "毛毯",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8519.JPG"
+        ],
+        "description": "毛毯上印有多个萨摩耶犬头像和狗爪、骨头图案，一只萨摩耶犬趴在毛毯上",
+        "descriptions": [
+          "毛毯上印有多个萨摩耶犬头像和狗爪、骨头图案，一只萨摩耶犬趴在毛毯上"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8519.JPG"
+      },
+      {
+        "product_group_id": "G072",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8520.JPG"
+        ],
+        "description": "一张贺卡上印着三花猫图案，有人正在贺卡上写字，周围散落着其他印有不同猫咪的卡片",
+        "descriptions": [
+          "一张贺卡上印着三花猫图案，有人正在贺卡上写字，周围散落着其他印有不同猫咪的卡片"
+        ],
+        "visible_text": "糟糕 被几迷晕惹(´･ω･`) CSTE",
+        "main_image": "IMG_8520.JPG"
+      },
+      {
+        "product_group_id": "G213",
+        "category": "冰箱贴",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8545.JPG"
+        ],
+        "description": "3D立体浮雕冰箱贴，展示金毛犬和猫的造型，旁边附有真实金毛犬和猫的照片",
+        "descriptions": [
+          "3D立体浮雕冰箱贴，展示金毛犬和猫的造型，旁边附有真实金毛犬和猫的照片"
+        ],
+        "visible_text": "3D立体浮雕冰箱贴, 环保树脂 48h发货, 专业设计 私人定制, 源头厂家",
+        "main_image": "IMG_8545.JPG"
+      },
+      {
+        "product_group_id": "G082",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8584.JPG"
+        ],
+        "description": "一只手拿着一个白色毛绒小狗玩偶，小狗头上戴着红色发卡，脖子上系着印有红心图案的围嘴",
+        "descriptions": [
+          "一只手拿着一个白色毛绒小狗玩偶，小狗头上戴着红色发卡，脖子上系着印有红心图案的围嘴"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8584.JPG"
+      },
+      {
+        "product_group_id": "G151",
+        "category": "抱枕",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8620.JPG"
+        ],
+        "description": "印有橘色猫咪大头照的猫头形状单肩包",
+        "descriptions": [
+          "印有橘色猫咪大头照的猫头形状单肩包"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8620.JPG"
+      },
+      {
+        "product_group_id": "G152",
+        "category": "抱枕",
+        "pet_type": "兔",
+        "item_count": 1,
+        "files": [
+          "IMG_8623.JPG"
+        ],
+        "description": "印有白兔头像和花环图案的白色单肩包",
+        "descriptions": [
+          "印有白兔头像和花环图案的白色单肩包"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8623.JPG"
+      },
+      {
+        "product_group_id": "G153",
+        "category": "抱枕",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8624.JPG"
+        ],
+        "description": "抱枕上印着一只金毛犬的大头照，狗狗脸颊带有粉色爱心特效",
+        "descriptions": [
+          "抱枕上印着一只金毛犬的大头照，狗狗脸颊带有粉色爱心特效"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8624.JPG"
+      },
+      {
+        "product_group_id": "G155",
+        "category": "抱枕",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8629.JPG"
+        ],
+        "description": "一个印有橘猫头像的圆形抱枕，被透明塑料袋包裹着",
+        "descriptions": [
+          "一个印有橘猫头像的圆形抱枕，被透明塑料袋包裹着"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8629.JPG"
+      },
+      {
+        "product_group_id": "G157",
+        "category": "抱枕",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8632.JPG"
+        ],
+        "description": "一个人背着印有金毛犬头像的抱枕包",
+        "descriptions": [
+          "一个人背着印有金毛犬头像的抱枕包"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8632.JPG"
+      },
+      {
+        "product_group_id": "G088",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8651.JPG",
+          "IMG_8652.JPG"
+        ],
+        "description": "两个保温杯上印着不同小狗图案，一个杯子印着棕色小狗和LOVELY DOG字样，另一个杯子印着白色小狗和A LOVELY DOG!字样",
+        "descriptions": [
+          "两个保温杯上印着不同小狗图案，一个杯子印着棕色小狗和LOVELY DOG字样，另一个杯子印着白色小狗和A LOVELY DOG!字样"
+        ],
+        "visible_text": "I'M SUPER, GUCGRES, LOVELY DOG",
+        "main_image": "IMG_8651.JPG"
+      },
+      {
+        "product_group_id": "G251",
+        "category": "刺绣服装",
+        "pet_type": "猫|狗|其他",
+        "item_count": 1,
+        "files": [
+          "IMG_8656.JPG"
+        ],
+        "description": "模特展示多款印有不同宠物图案的定制T恤，包括站立小猫、爱心小狗等图案",
+        "descriptions": [
+          "模特展示多款印有不同宠物图案的定制T恤，包括站立小猫、爱心小狗等图案"
+        ],
+        "visible_text": "HALOXCS, 宠物T恤定制, 一件起定, 免费设计出图, Sixteen little TWEN",
+        "main_image": "IMG_8656.JPG"
+      },
+      {
+        "product_group_id": "G272",
+        "category": "服装",
+        "pet_type": "猫|狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8657.JPG"
+        ],
+        "description": "一位女士穿着印有猫咪和狗狗图案及‘Cute family’字样的白色短袖T恤",
+        "descriptions": [
+          "一位女士穿着印有猫咪和狗狗图案及‘Cute family’字样的白色短袖T恤"
+        ],
+        "visible_text": "CHUNT CUSTOMISATION, 家有萌宠 来图定制, Cute family, 1选择款式",
+        "main_image": "IMG_8657.JPG"
+      },
+      {
+        "product_group_id": "G230",
+        "category": "帆布袋",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8658.JPG"
+        ],
+        "description": "多个印有不同宠物头像和名字的帆布袋，中央深蓝色帆布袋上印有边牧犬头像和POPPY字样",
+        "descriptions": [
+          "多个印有不同宠物头像和名字的帆布袋，中央深蓝色帆布袋上印有边牧犬头像和POPPY字样"
+        ],
+        "visible_text": "星觅 XINGMI, POPPY, 萌宠来图定制, 免费设计 多种模板 多种版型, 1.选择喜欢的图",
+        "main_image": "IMG_8658.JPG"
+      },
+      {
+        "product_group_id": "G091",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8666.JPG"
+        ],
+        "description": "一只戴着定制棒球帽的斗牛犬，帽子上绣有同品种狗狗头像",
+        "descriptions": [
+          "一只戴着定制棒球帽的斗牛犬，帽子上绣有同品种狗狗头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8666.JPG"
+      },
+      {
+        "product_group_id": "G252",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8667.JPG"
+        ],
+        "description": "多顶深灰色棒球帽上绣有不同品种的狗狗头像",
+        "descriptions": [
+          "多顶深灰色棒球帽上绣有不同品种的狗狗头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8667.JPG"
+      },
+      {
+        "product_group_id": "G256",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8675.JPG"
+        ],
+        "description": "多顶棒球帽上绣有不同品种的狗狗头像",
+        "descriptions": [
+          "多顶棒球帽上绣有不同品种的狗狗头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8675.JPG"
+      },
+      {
+        "product_group_id": "G092",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8678.JPG"
+        ],
+        "description": "圆形地垫上印着一只小狗的头像，旁边有一只相同品种的小狗站立着",
+        "descriptions": [
+          "圆形地垫上印着一只小狗的头像，旁边有一只相同品种的小狗站立着"
+        ],
+        "visible_text": "你看 这是狗狗我！, YY",
+        "main_image": "IMG_8678.JPG"
+      },
+      {
+        "product_group_id": "G277",
+        "category": "地毯",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8679.JPG"
+        ],
+        "description": "一只浅棕色泰迪犬坐在印有自己头像和名字的地毯上",
+        "descriptions": [
+          "一只浅棕色泰迪犬坐在印有自己头像和名字的地毯上"
+        ],
+        "visible_text": "TUOBY",
+        "main_image": "IMG_8679.JPG"
+      },
+      {
+        "product_group_id": "G273",
+        "category": "服装",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8680.JPG"
+        ],
+        "description": "一位女性抱着一只三色猫，穿着印有猫图案和“MONDAY”字样的白色T恤",
+        "descriptions": [
+          "一位女性抱着一只三色猫，穿着印有猫图案和“MONDAY”字样的白色T恤"
+        ],
+        "visible_text": "来图定制, 一件起订, 免费设计, 爱宠/追星/logo, MONDAY",
+        "main_image": "IMG_8680.JPG"
+      },
+      {
+        "product_group_id": "G274",
+        "category": "服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8683.JPG",
+          "IMG_8684.JPG"
+        ],
+        "description": "米白色T恤上印着一只柯基犬图案，下方有‘Corgi’字样",
+        "descriptions": [
+          "米白色T恤上印着一只柯基犬图案，下方有‘Corgi’字样"
+        ],
+        "visible_text": "Corgi",
+        "main_image": "IMG_8683.JPG"
+      },
+      {
+        "product_group_id": "G216",
+        "category": "冰箱贴",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_8698.JPG"
+        ],
+        "description": "冰箱上贴着一个猫形冰箱贴，内部填充类似草絮物质，旁边还有一个小花瓶装饰",
+        "descriptions": [
+          "冰箱上贴着一个猫形冰箱贴，内部填充类似草絮物质，旁边还有一个小花瓶装饰"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8698.JPG"
+      },
+      {
+        "product_group_id": "G261",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8702.JPG"
+        ],
+        "description": "米色T恤背面印有五只穿着不同衣服的雪纳瑞图案，旁边有红色爱心和FOREVER LOVE字样，左侧展示多张雪纳瑞照片。",
+        "descriptions": [
+          "米色T恤背面印有五只穿着不同衣服的雪纳瑞图案，旁边有红色爱心和FOREVER LOVE字样，左侧展示多张雪纳瑞照片。"
+        ],
+        "visible_text": "Design ATee、FLAGSHIP STORE、来图定制、萌宠定制、一件起订、DESIGNAT",
+        "main_image": "IMG_8702.JPG"
+      },
+      {
+        "product_group_id": "G275",
+        "category": "服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8703.JPG"
+        ],
+        "description": "一位女性穿着印有宠物图案和文字的白色短袖T恤，左侧展示了T恤定制的步骤，包括选择款式颜色和提供照片文案原创设计",
+        "descriptions": [
+          "一位女性穿着印有宠物图案和文字的白色短袖T恤，左侧展示了T恤定制的步骤，包括选择款式颜色和提供照片文案原创设计"
+        ],
+        "visible_text": "家有萌宠 来图定制, 1 选择款式颜色, GUORAN BABY, 2 提供照片文案 原创设计, D",
+        "main_image": "IMG_8703.JPG"
+      },
+      {
+        "product_group_id": "G276",
+        "category": "服装",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8704.JPG"
+        ],
+        "description": "白色T恤上印着三只不同品种猫咪图案，图案下方有英文LOVE AND PEACE字样",
+        "descriptions": [
+          "白色T恤上印着三只不同品种猫咪图案，图案下方有英文LOVE AND PEACE字样"
+        ],
+        "visible_text": "萌宠照片印制 Design ATee, 100%cotton, Keep being yoursel",
+        "main_image": "IMG_8704.JPG"
+      },
+      {
+        "product_group_id": "G160",
+        "category": "抱枕",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8710.JPG"
+        ],
+        "description": "多个宠物形象抱枕对比展示，其中三个无白边，其余有白边",
+        "descriptions": [
+          "多个宠物形象抱枕对比展示，其中三个无白边，其余有白边"
+        ],
+        "visible_text": "无白边vs有白边 只有这三货是无白边其他都是有白边",
+        "main_image": "IMG_8710.JPG"
+      },
+      {
+        "product_group_id": "G263",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8735.JPG"
+        ],
+        "description": "白色T恤上绣有一只戴着紫色围巾的柯基犬图案，下方有PRYANIK字样",
+        "descriptions": [
+          "白色T恤上绣有一只戴着紫色围巾的柯基犬图案，下方有PRYANIK字样"
+        ],
+        "visible_text": "沐菡创意定制刺绣, PRYANIK, 刺绣定制T恤, 可定制各种照片/图案（提供图片就可以定制）",
+        "main_image": "IMG_8735.JPG"
+      },
+      {
+        "product_group_id": "G237",
+        "category": "帆布袋",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8757.JPG"
+        ],
+        "description": "帆布袋上印有暹罗猫的定制贴纸图案，包含多张猫咪照片和萌系元素",
+        "descriptions": [
+          "帆布袋上印有暹罗猫的定制贴纸图案，包含多张猫咪照片和萌系元素"
+        ],
+        "visible_text": "贴纸的诞生过程、真实照片、记录毛孩子的可爱瞬间、手绘描边、手绘勾勒轮廓、赋予灵动感、萌系元素、加入爱",
+        "main_image": "IMG_8757.JPG"
+      },
+      {
+        "product_group_id": "G162",
+        "category": "抱枕",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8758.JPG"
+        ],
+        "description": "两个圆形抱枕上分别印有小狗和小猫的头像，周围有文字环绕",
+        "descriptions": [
+          "两个圆形抱枕上分别印有小狗和小猫的头像，周围有文字环绕"
+        ],
+        "visible_text": "I Love My Dog|I Love My Cat|宠物头像抱枕|宠物专属定制",
+        "main_image": "IMG_8758.JPG"
+      },
+      {
+        "product_group_id": "G163",
+        "category": "抱枕",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8760.JPG"
+        ],
+        "description": "圆形抱枕上印有一只柯基犬的头像，周围有黄色爪印图案，底部印有“DUDU”字样",
+        "descriptions": [
+          "圆形抱枕上印有一只柯基犬的头像，周围有黄色爪印图案，底部印有“DUDU”字样"
+        ],
+        "visible_text": "DUDU",
+        "main_image": "IMG_8760.JPG"
+      },
+      {
+        "product_group_id": "G266",
+        "category": "刺绣服装",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8761.JPG"
+        ],
+        "description": "一位女性穿着印有三只小猫图案的浅绿色T恤，背景有多个宠物图案和英文装饰文字",
+        "descriptions": [
+          "一位女性穿着印有三只小猫图案的浅绿色T恤，背景有多个宠物图案和英文装饰文字"
+        ],
+        "visible_text": "宠物T恤定制, Cat Club, DIY猫猫狗狗照片",
+        "main_image": "IMG_8761.JPG"
+      },
+      {
+        "product_group_id": "G267",
+        "category": "刺绣服装",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8762.JPG"
+        ],
+        "description": "两件T恤上分别印有布偶猫头像和布偶猫趴在数字3上的图案，配有文字",
+        "descriptions": [
+          "两件T恤上分别印有布偶猫头像和布偶猫趴在数字3上的图案，配有文字"
+        ],
+        "visible_text": "LANGLAN, IT'S MY BABY, Lucky, 2021.05.19, langlang",
+        "main_image": "IMG_8762.JPG"
+      },
+      {
+        "product_group_id": "G164",
+        "category": "抱枕",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8769.JPG"
+        ],
+        "description": "蓝白条纹毛毯上印着红色苹果图案，苹果内是小狗头像，下方有“MY PET”字样",
+        "descriptions": [
+          "蓝白条纹毛毯上印着红色苹果图案，苹果内是小狗头像，下方有“MY PET”字样"
+        ],
+        "visible_text": "HUHU 定制屋, MY PET",
+        "main_image": "IMG_8769.JPG"
+      },
+      {
+        "product_group_id": "G268",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8785.JPG"
+        ],
+        "description": "手工刺绣钥匙扣上绣着一只穿着绿色衣服的柯基犬",
+        "descriptions": [
+          "手工刺绣钥匙扣上绣着一只穿着绿色衣服的柯基犬"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8785.JPG"
+      },
+      {
+        "product_group_id": "G269",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8794.JPG"
+        ],
+        "description": "袜子上印着人物笑脸和红色手掌印图案，右侧展示了其他图案的袜子及一只狗的清晰肖像",
+        "descriptions": [
+          "袜子上印着人物笑脸和红色手掌印图案，右侧展示了其他图案的袜子及一只狗的清晰肖像"
+        ],
+        "visible_text": "Product Details, Exquisite design, Clear Portraits",
+        "main_image": "IMG_8794.JPG"
+      },
+      {
+        "product_group_id": "G173",
+        "category": "相框纪念册",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8826.JPG"
+        ],
+        "description": "木质宠物纪念相框，相框上有猫狗图案装饰，内嵌猫咪照片，底部刻有英文文字",
+        "descriptions": [
+          "木质宠物纪念相框，相框上有猫狗图案装饰，内嵌猫咪照片，底部刻有英文文字"
+        ],
+        "visible_text": "FOREVER IN MY HEART, Home IS WHERE MY cat is, 宠物纪念",
+        "main_image": "IMG_8826.JPG"
+      },
+      {
+        "product_group_id": "G299",
+        "category": "相框纪念",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8827.JPG"
+        ],
+        "description": "木质相框上雕刻着猫狗图案和文字，相框内是一只橘白猫的照片",
+        "descriptions": [
+          "木质相框上雕刻着猫狗图案和文字，相框内是一只橘白猫的照片"
+        ],
+        "visible_text": "FOREVER INMYHEART",
+        "main_image": "IMG_8827.JPG"
+      },
+      {
+        "product_group_id": "G118",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8828.JPG"
+        ],
+        "description": "木质相框镜子上雕刻着猫的图案，镜子前有一只小猫，相框底部刻着“Home is where My cat is”字样",
+        "descriptions": [
+          "木质相框镜子上雕刻着猫的图案，镜子前有一只小猫，相框底部刻着“Home is where My cat is”字样"
+        ],
+        "visible_text": "Home is where MY cat is",
+        "main_image": "IMG_8828.JPG"
+      },
+      {
+        "product_group_id": "G174",
+        "category": "相框纪念册",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8858.JPG"
+        ],
+        "description": "宠物纪念册封面展示，左侧封面上有哈士奇照片和‘宠物日记’字样，右侧封面上有橘猫照片和‘CUTE CAT 喵星猫’字样",
+        "descriptions": [
+          "宠物纪念册封面展示，左侧封面上有哈士奇照片和‘宠物日记’字样，右侧封面上有橘猫照片和‘CUTE CAT 喵星猫’字样"
+        ],
+        "visible_text": "宠物纪念册, 它/用/叫/声/点/亮/你/的/清/晨, 宠物日记, My little pet, C",
+        "main_image": "IMG_8858.JPG"
+      },
+      {
+        "product_group_id": "G119",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8859.JPG"
+        ],
+        "description": "两张印有柯基犬在花丛中照片的卡片，分别标注高清4色和超清6色",
+        "descriptions": [
+          "两张印有柯基犬在花丛中照片的卡片，分别标注高清4色和超清6色"
+        ],
+        "visible_text": "进口 HPindigo12000设备, 还原真实色彩 全书覆膜锁色, 热销, Hot, 高清4色, ",
+        "main_image": "IMG_8859.JPG"
+      },
+      {
+        "product_group_id": "G270",
+        "category": "刺绣服装",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8861.JPG"
+        ],
+        "description": "灰色T恤上印有多个橘猫图案，还配有蛋糕、星星等装饰图案以及“HELLO!”字样，右侧平板显示相同橘猫图案。",
+        "descriptions": [
+          "灰色T恤上印有多个橘猫图案，还配有蛋糕、星星等装饰图案以及“HELLO!”字样，右侧平板显示相同橘猫图案。"
+        ],
+        "visible_text": "宠物照片 定制T恤 HELLO!",
+        "main_image": "IMG_8861.JPG"
+      },
+      {
+        "product_group_id": "G271",
+        "category": "刺绣服装",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8862.JPG"
+        ],
+        "description": "浅灰色T恤上印着一只戴着格子领结的泰迪犬图案，周围还有披萨、华夫饼、购物车等卡通图案，下方有字母文字",
+        "descriptions": [
+          "浅灰色T恤上印着一只戴着格子领结的泰迪犬图案，周围还有披萨、华夫饼、购物车等卡通图案，下方有字母文字"
+        ],
+        "visible_text": "宠物照片、定制T恤、PEASFIE POYS、RECPCOSLBLLLCY、Marcinai、Pcp",
+        "main_image": "IMG_8862.JPG"
+      },
+      {
+        "product_group_id": "G217",
+        "category": "冰箱贴",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8934.JPG"
+        ],
+        "description": "3D立体浮雕冰箱贴，图案为一只柯基犬，胸前有‘校园守护者’字样",
+        "descriptions": [
+          "3D立体浮雕冰箱贴，图案为一只柯基犬，胸前有‘校园守护者’字样"
+        ],
+        "visible_text": "校园守护者, 3D立体浮雕冰箱贴, 来图定制, 源头工厂",
+        "main_image": "IMG_8934.JPG"
+      },
+      {
+        "product_group_id": "G300",
+        "category": "小夜灯",
+        "pet_type": "其他",
+        "item_count": 1,
+        "files": [
+          "IMG_8940.JPG"
+        ],
+        "description": "两个猫和老鼠主题的小夜灯，一个为杰瑞抱着奶酪，另一个为汤姆手托小杰瑞",
+        "descriptions": [
+          "两个猫和老鼠主题的小夜灯，一个为杰瑞抱着奶酪，另一个为汤姆手托小杰瑞"
+        ],
+        "visible_text": "小夜灯定制, 毕设展示, 加急发货",
+        "main_image": "IMG_8940.JPG"
+      },
+      {
+        "product_group_id": "G130",
+        "category": "其他定制",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_8998.JPG"
+        ],
+        "description": "一只手拿着一个蓝白配色的信封，信封上印有猫的图案和文字，可定制图片文字",
+        "descriptions": [
+          "一只手拿着一个蓝白配色的信封，信封上印有猫的图案和文字，可定制图片文字"
+        ],
+        "visible_text": "公司信封定制 厂家发货 灼岳印刷 ZHUOYUE PRINTING 联系电话:0666-888888",
+        "main_image": "IMG_8998.JPG"
+      },
+      {
+        "product_group_id": "G218",
+        "category": "冰箱贴",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_9031.JPG"
+        ],
+        "description": "一组六款萌宠主题冰箱贴，每款都有不同宠物和场景文字",
+        "descriptions": [
+          "一组六款萌宠主题冰箱贴，每款都有不同宠物和场景文字"
+        ],
+        "visible_text": "萌宠冰箱贴 来图定制您家萌宠的打工形象 MONDAY MOOD THURSDAY TUESDAY W",
+        "main_image": "IMG_9031.JPG"
+      },
+      {
+        "product_group_id": "G176",
+        "category": "相框纪念册",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_9036.JPG"
+        ],
+        "description": "黑色相框内是狗形状的镂空设计，内部贴有多张不同白色狗狗的照片，周围还贴有一些卡通贴纸，其中一张贴纸写着'I LOVE YOU!'",
+        "descriptions": [
+          "黑色相框内是狗形状的镂空设计，内部贴有多张不同白色狗狗的照片，周围还贴有一些卡通贴纸，其中一张贴纸写着'I LOVE YOU!'"
+        ],
+        "visible_text": "I LOVE YOU!",
+        "main_image": "IMG_9036.JPG"
+      }
+    ],
+    "urn": [
+      {
+        "product_group_id": "G177",
+        "category": "陶瓷纪念",
+        "pet_type": "狗",
+        "item_count": 5,
+        "files": [
+          "IMG_8486.JPG",
+          "IMG_8487.JPG",
+          "IMG_8489.JPG",
+          "IMG_8490.JPG",
+          "IMG_8491.JPG"
+        ],
+        "description": "白色陶瓷罐上印有黑白相间狗狗的头像，罐身装饰有粉色爪印和心形图案 / 白色陶瓷纪念罐上印着一只黑白相间狗狗的照片，罐身还有粉色爪印和爱心装饰 / 白色陶瓷罐上有宠物狗照片镂空窗口，罐身装饰有粉色爪印和爱心图案",
+        "descriptions": [
+          "白色陶瓷罐上印有黑白相间狗狗的头像，罐身装饰有粉色爪印和心形图案",
+          "白色陶瓷罐上有宠物狗照片镂空窗口，罐身装饰有粉色爪印和爱心图案",
+          "白色陶瓷纪念罐上印着一只黑白相间狗狗的照片，罐身还有粉色爪印和爱心装饰",
+          "白色陶瓷罐上有一个圆形窗口，展示了一只黑白相间狗狗的照片，罐身装饰有粉色爪印和爱心图案",
+          "白色陶瓷罐上有一个圆形开口，内嵌黑白狗狗照片，罐身还有粉色爪印和心形图案"
+        ],
+        "visible_text": "把陪伴，温柔珍藏。宠物照片定制纪念陶瓷罐 细腻釉面 | 爪印爱心设计 | 居家纪念摆放 小展示 感温 / 把思念温柔安放 宠物照片定制 | 陶瓷纪念罐 温润釉面·爪印爱心细节 / 温柔细节，看得见。爪印爱心点缀 | 陶瓷釉面细腻柔润 | 圆润罐型更显安定 小展示 感温润舒适 / 捧在手心里的想念 不只是纪念，更是一份陪伴的延续。 送给自己 | 送给家人 | 温柔安放 小展示 感",
+        "main_image": "IMG_8486.JPG"
+      },
+      {
+        "product_group_id": "G066",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8526.PNG"
+        ],
+        "description": "木质盒子里有两个带软木塞的玻璃瓶，盒盖上有一张博美犬的照片",
+        "descriptions": [
+          "木质盒子里有两个带软木塞的玻璃瓶，盒盖上有一张博美犬的照片"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8526.PNG"
+      },
+      {
+        "product_group_id": "G179",
+        "category": "陶瓷纪念",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8488.JPG"
+        ],
+        "description": "陶瓷罐和相框上印有同一只边境牧羊犬的照片，旁边有信件和明信片",
+        "descriptions": [
+          "陶瓷罐和相框上印有同一只边境牧羊犬的照片，旁边有信件和明信片"
+        ],
+        "visible_text": "专属照片定制, 把熟悉的笑脸，温柔留存。, 一宠一图更有纪念意义 | 适合作为宠物纪念摆件, 亲爱的",
+        "main_image": "IMG_8488.JPG"
+      },
+      {
+        "product_group_id": "G075",
+        "category": "其他定制",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_8525.JPG"
+        ],
+        "description": "木质宠物纪念牌，正面印有蓝丝带图案和英文纪念文字，附带十字架和蜡烛装饰，背面无图案",
+        "descriptions": [
+          "木质宠物纪念牌，正面印有蓝丝带图案和英文纪念文字，附带十字架和蜡烛装饰，背面无图案"
+        ],
+        "visible_text": "You left paw prints on our hearts, You have left o",
+        "main_image": "IMG_8525.JPG"
+      },
+      {
+        "product_group_id": "G076",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8527.JPG"
+        ],
+        "description": "深色木质宠物毛发收藏盒，盒盖内侧有宠物照片展示位，盒内有两个装宠物毛发等物品的玻璃瓶",
+        "descriptions": [
+          "深色木质宠物毛发收藏盒，盒盖内侧有宠物照片展示位，盒内有两个装宠物毛发等物品的玻璃瓶"
+        ],
+        "visible_text": "宠物毛发收藏盒, 可定制照片·刻字信息, 毛发·牙齿·指甲, 厂家直销 支持定制",
+        "main_image": "IMG_8527.JPG"
+      },
+      {
+        "product_group_id": "G084",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8633.JPG",
+          "IMG_8634.JPG",
+          "IMG_8635.JPG"
+        ],
+        "description": "木质相框内展示金色宠物爪印，旁边有两个小玻璃瓶，相框上有名字和日期",
+        "descriptions": [
+          "木质相框内展示金色宠物爪印，旁边有两个小玻璃瓶，相框上有名字和日期"
+        ],
+        "visible_text": "ANAN, LOVE, 2025-04-12",
+        "main_image": "IMG_8633.JPG"
+      },
+      {
+        "product_group_id": "G303",
+        "category": "石板纪念",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_9002.JPG"
+        ],
+        "description": "天然石板上高清复刻一只长毛猫的黑白画像，下方刻有名字和生卒年月",
+        "descriptions": [
+          "天然石板上高清复刻一只长毛猫的黑白画像，下方刻有名字和生卒年月"
+        ],
+        "visible_text": "天然石板材质 质感细腻, 高清照片复刻 细节清晰, 支架稳固 展示便捷, Simon, 2008/0",
+        "main_image": "IMG_9002.JPG"
+      },
+      {
+        "product_group_id": "G304",
+        "category": "石板画",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_9003.JPG"
+        ],
+        "description": "天然石板上刻着一只长毛猫的肖像，下方刻有名字和日期",
+        "descriptions": [
+          "天然石板上刻着一只长毛猫的肖像，下方刻有名字和日期"
+        ],
+        "visible_text": "天然石板材质 细腻纹理, 高清宠物肖像 持久保存, Simon 2008/06/08-2021/07",
+        "main_image": "IMG_9003.JPG"
+      },
+      {
+        "product_group_id": "G183",
+        "category": "陶瓷纪念",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_9032.JPG"
+        ],
+        "description": "陶瓷杯垫上印着西高地白梗犬趴在书上，头上有咖啡杯图案，旁边写着'MONDAY MOOD'，旁边有一只西高地白梗犬真实照片对比",
+        "descriptions": [
+          "陶瓷杯垫上印着西高地白梗犬趴在书上，头上有咖啡杯图案，旁边写着'MONDAY MOOD'，旁边有一只西高地白梗犬真实照片对比"
+        ],
+        "visible_text": "MONDAY MOOD",
+        "main_image": "IMG_9032.JPG"
+      }
+    ],
+    "jewelry": [
+      {
+        "product_group_id": "G078",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8535.JPG",
+          "IMG_8537.JPG"
+        ],
+        "description": "一组透明玻璃材质的猫咪形状挂件，挂件上有不同猫咪图案 / 透明容器内装有灰色毛绒物质，容器表面画有猫咪的面部图案，形似猫咪形状的挂件",
+        "descriptions": [
+          "一组透明玻璃材质的猫咪形状挂件，挂件上有不同猫咪图案",
+          "透明容器内装有灰色毛绒物质，容器表面画有猫咪的面部图案，形似猫咪形状的挂件"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8535.JPG"
+      },
+      {
+        "product_group_id": "G020",
+        "category": "首饰项链",
+        "pet_type": "猫",
+        "item_count": 3,
+        "files": [
+          "IMG_8575.JPG",
+          "IMG_8577.JPG",
+          "IMG_8579.JPG",
+          "IMG_8580.JPG"
+        ],
+        "description": "圆形吊坠内嵌铜色圆片，圆片上刻有一只抬爪的猫和“吕无忧”字样 / 银色圆形吊坠项链，吊坠内刻有跳跃的猫图案和日期 / 一只手拿着一条项链，项链吊坠内有一只猫咪的图案",
+        "descriptions": [
+          "圆形吊坠内嵌铜色圆片，圆片上刻有一只抬爪的猫和“吕无忧”字样",
+          "银色圆形吊坠项链，吊坠内刻有跳跃的猫图案和日期",
+          "一只手拿着一条项链，项链吊坠内有一只猫咪的图案"
+        ],
+        "visible_text": "吕无忧",
+        "main_image": "IMG_8575.JPG"
+      },
+      {
+        "product_group_id": "G022",
+        "category": "首饰项链",
+        "pet_type": "狗|鸟",
+        "item_count": 2,
+        "files": [
+          "IMG_8578.JPG",
+          "IMG_8582.JPG"
+        ],
+        "description": "手掌上放着一个圆形金属吊坠，吊坠内有一幅小狗的画像，旁边有‘奶牛’字样 / 一只手托着一个圆形金属吊坠，吊坠内有一只鹦鹉图案",
+        "descriptions": [
+          "手掌上放着一个圆形金属吊坠，吊坠内有一幅小狗的画像，旁边有‘奶牛’字样",
+          "一只手托着一个圆形金属吊坠，吊坠内有一只鹦鹉图案"
+        ],
+        "visible_text": "奶牛",
+        "main_image": "IMG_8578.JPG"
+      },
+      {
+        "product_group_id": "G032",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8609.JPG",
+          "IMG_8610.JPG"
+        ],
+        "description": "透明塑料包装内有一个圆形吊坠，吊坠上刻有狗的图案和爪印 / 透明塑料包装袋内装有一个圆形吊坠，吊坠上刻有宠物图案和爪印",
+        "descriptions": [
+          "透明塑料包装内有一个圆形吊坠，吊坠上刻有狗的图案和爪印",
+          "透明塑料包装袋内装有一个圆形吊坠，吊坠上刻有宠物图案和爪印"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8609.JPG"
+      },
+      {
+        "product_group_id": "G144",
+        "category": "印章刻印",
+        "pet_type": "猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8611.JPG",
+          "IMG_8616.JPG"
+        ],
+        "description": "透明印章上刻着猫咪头像和‘喵喵’字样，旁边展示印章印出的猫咪图案效果 / 印章上刻着猫的头像图案",
+        "descriptions": [
+          "印章上刻着猫的头像图案",
+          "透明印章上刻着猫咪头像和‘喵喵’字样，旁边展示印章印出的猫咪图案效果"
+        ],
+        "visible_text": "实拍原图, 超细微观, 印章技术, 印章效果=印刷？？ / 毛发依稀可见, 细节丰富, 立体感十足, 喵喵, 专业印章设计机构, 雨胤",
+        "main_image": "IMG_8611.JPG"
+      },
+      {
+        "product_group_id": "G053",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗|猫|其他|猫|猫|狗",
+        "item_count": 3,
+        "files": [
+          "IMG_8731.JPG",
+          "IMG_8733.JPG",
+          "IMG_8734.JPG"
+        ],
+        "description": "多个宠物猫头像定制的透明亚克力钥匙扣挂件，挂在包上展示 / 三个宠物钥匙扣，分别印有小猫、小狗和柯基犬的照片 / 四个宠物头像定制钥匙扣，分别印有橘猫、黑猫、橘白猫和巴哥犬的照片",
+        "descriptions": [
+          "四个宠物头像定制钥匙扣，分别印有橘猫、黑猫、橘白猫和巴哥犬的照片",
+          "三个宠物钥匙扣，分别印有小猫、小狗和柯基犬的照片",
+          "多个宠物猫头像定制的透明亚克力钥匙扣挂件，挂在包上展示"
+        ],
+        "visible_text": "来图定制, 宠物钥匙扣, 防水防摔, 不褪色挂件, 一件包邮, 双层双面, 高清彩印 / 一件包邮, 宠物钥匙扣 支持定制 / 宠物钥匙扣定制, LOVELY, 爱宠照片定制, 高清不褪色挂件, 来图定制, 新品上市, 升级加厚",
+        "main_image": "IMG_8731.JPG"
+      },
+      {
+        "product_group_id": "G059",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8790.JPG",
+          "IMG_8791.JPG"
+        ],
+        "description": "一只手拿着一个比熊犬形象的皮质钥匙扣挂件 / 黄色手提包上挂着比熊犬形象的钥匙扣挂件",
+        "descriptions": [
+          "一只手拿着一个比熊犬形象的皮质钥匙扣挂件",
+          "黄色手提包上挂着比熊犬形象的钥匙扣挂件"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8790.JPG"
+      },
+      {
+        "product_group_id": "G037",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8888.JPG",
+          "IMG_8889.JPG"
+        ],
+        "description": "金色手链上挂有刻着边境牧羊犬头像和RUBBY字样的圆形吊牌 / 金色手链上挂着带有边牧犬头像和名字的圆形吊牌",
+        "descriptions": [
+          "金色手链上挂着带有边牧犬头像和名字的圆形吊牌",
+          "金色手链上挂有刻着边境牧羊犬头像和RUBBY字样的圆形吊牌"
+        ],
+        "visible_text": "RUBBY / YOUR PET'S PORTRAIT, RUBBY, Gold, Rose Gold, Silve",
+        "main_image": "IMG_8888.JPG"
+      },
+      {
+        "product_group_id": "G039",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 3,
+        "files": [
+          "IMG_9017.JPG",
+          "IMG_9018.JPG",
+          "IMG_9019.JPG",
+          "IMG_9020.JPG"
+        ],
+        "description": "银色项链吊坠为一只约克夏犬形象 / 一只手拿着一条银色项链，项链吊坠为一只穿着衣服的约克夏犬黑白线条图案，右下角小图是穿着同款衣服的真实约克夏犬照片 / 银质项链吊坠上刻着一只约克夏犬的图案，右下角小图是真实约克夏犬照片",
+        "descriptions": [
+          "一只手拿着一条银色项链，项链吊坠为一只穿着衣服的约克夏犬黑白线条图案，右下角小图是穿着同款衣服的真实约克夏犬照片",
+          "银质项链吊坠上刻着一只约克夏犬的图案，右下角小图是真实约克夏犬照片",
+          "银色项链吊坠为一只约克夏犬形象"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_9017.JPG"
+      },
+      {
+        "product_group_id": "G136",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 3,
+        "files": [
+          "IMG_9033.JPG",
+          "IMG_9034.JPG",
+          "IMG_9035.JPG"
+        ],
+        "description": "帆布包上挂着蓝色骨头形状宠物挂件，挂件上印有狗狗图案和Lucky字样 / 黑色骨头形状宠物用品挂件，上面印有狗狗头像和名字Milo / 粉色骨头形状宠物用品挂件，上面印有狗狗头像和“糯米”字样",
+        "descriptions": [
+          "粉色骨头形状宠物用品挂件，上面印有狗狗头像和“糯米”字样",
+          "帆布包上挂着蓝色骨头形状宠物挂件，挂件上印有狗狗图案和Lucky字样",
+          "黑色骨头形状宠物用品挂件，上面印有狗狗头像和名字Milo"
+        ],
+        "visible_text": "糯米 / Lucky / Milo",
+        "main_image": "IMG_9033.JPG"
+      },
+      {
+        "product_group_id": "G044",
+        "category": "首饰项链",
+        "pet_type": "猫",
+        "item_count": 2,
+        "files": [
+          "IMG_9046.JPG",
+          "IMG_9047.JPG"
+        ],
+        "description": "银戒指上刻有猫咪头像图案，内侧有文字 / 银色戒指上刻有两只猫的头像，戒指内侧刻有文字，上方是两只猫的真实照片",
+        "descriptions": [
+          "银戒指上刻有猫咪头像图案，内侧有文字",
+          "银色戒指上刻有两只猫的头像，戒指内侧刻有文字，上方是两只猫的真实照片"
+        ],
+        "visible_text": "Vincit Om / 写实雕刻, Coffee & Latte",
+        "main_image": "IMG_9046.JPG"
+      },
+      {
+        "product_group_id": "G016",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8793.PNG"
+        ],
+        "description": "银色戒指上有一个小狗头造型装饰",
+        "descriptions": [
+          "银色戒指上有一个小狗头造型装饰"
+        ],
+        "visible_text": "来图定制 宠物戒指 送戒指盒 可调节大小",
+        "main_image": "IMG_8793.PNG"
+      },
+      {
+        "product_group_id": "G139",
+        "category": "印章刻印",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8530.PNG"
+        ],
+        "description": "木质宠物纪念盒，盒盖上刻有宠物名字和日期，内部可放置装有宠物毛发的小瓶子，还配有宠物照片",
+        "descriptions": [
+          "木质宠物纪念盒，盒盖上刻有宠物名字和日期，内部可放置装有宠物毛发的小瓶子，还配有宠物照片"
+        ],
+        "visible_text": "刻印模版、照片、小瓶子×4、装瓶是上下叠放、Tidy、2006.8.20-2025.9.24、定制款",
+        "main_image": "IMG_8530.PNG"
+      },
+      {
+        "product_group_id": "G017",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_6539.JPG"
+        ],
+        "description": "钥匙扣或项链吊坠上印着一只狗与一只手相触的图案，下方有三个狗爪印，配有英文文字",
+        "descriptions": [
+          "钥匙扣或项链吊坠上印着一只狗与一只手相触的图案，下方有三个狗爪印，配有英文文字"
+        ],
+        "visible_text": "No Longer by Our Side, You'll live forever in our ",
+        "main_image": "IMG_6539.JPG"
+      },
+      {
+        "product_group_id": "G046",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_6540.JPG"
+        ],
+        "description": "圆形金属钥匙扣，上面印有一只金毛犬与一只手相触的图案，还有几个狗爪印，配有英文文字",
+        "descriptions": [
+          "圆形金属钥匙扣，上面印有一只金毛犬与一只手相触的图案，还有几个狗爪印，配有英文文字"
+        ],
+        "visible_text": "No Longer by Our Side, You'll live forever in our ",
+        "main_image": "IMG_6540.JPG"
+      },
+      {
+        "product_group_id": "G018",
+        "category": "首饰项链",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_6827.JPG"
+        ],
+        "description": "两张宠物项链吊坠特写图，吊坠上分别雕刻着小狗和小猫的形象，左侧配有两张对应宠物的照片",
+        "descriptions": [
+          "两张宠物项链吊坠特写图，吊坠上分别雕刻着小狗和小猫的形象，左侧配有两张对应宠物的照片"
+        ],
+        "visible_text": "感觉，它又回来了！深层雕刻",
+        "main_image": "IMG_6827.JPG"
+      },
+      {
+        "product_group_id": "G019",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_6828.JPG"
+        ],
+        "description": "项链吊坠上刻着一只小狗的图案，右侧展示了小狗原型和吊坠背面刻字",
+        "descriptions": [
+          "项链吊坠上刻着一只小狗的图案，右侧展示了小狗原型和吊坠背面刻字"
+        ],
+        "visible_text": "Lucy a good puppy",
+        "main_image": "IMG_6828.JPG"
+      },
+      {
+        "product_group_id": "G140",
+        "category": "印章刻印",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_7613.JPG"
+        ],
+        "description": "多个彩色印章，印章上印有猫咪照片，一只手正在按压粉色印章在纸上印出猫咪图案",
+        "descriptions": [
+          "多个彩色印章，印章上印有猫咪照片，一只手正在按压粉色印章在纸上印出猫咪图案"
+        ],
+        "visible_text": "宠物 照片 图案印章定制, 下单送印油",
+        "main_image": "IMG_7613.JPG"
+      },
+      {
+        "product_group_id": "G141",
+        "category": "印章刻印",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_7614.JPG"
+        ],
+        "description": "印章及印有图案的纸张，印章可刻宠物图案",
+        "descriptions": [
+          "印章及印有图案的纸张，印章可刻宠物图案"
+        ],
+        "visible_text": "细节展示、自动出油 印记清晰、操作方便 送专用油、心情管理部、基本管理局、皇脉印章自拍图",
+        "main_image": "IMG_7614.JPG"
+      },
+      {
+        "product_group_id": "G047",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8492.JPG"
+        ],
+        "description": "左侧为小狗照片，右侧为带有小狗浮雕形象的钥匙扣挂件",
+        "descriptions": [
+          "左侧为小狗照片，右侧为带有小狗浮雕形象的钥匙扣挂件"
+        ],
+        "visible_text": "宠物照片定制浮雕钥匙链 专属定制，还原爱宠 顺丰包邮",
+        "main_image": "IMG_8492.JPG"
+      },
+      {
+        "product_group_id": "G048",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8493.JPG"
+        ],
+        "description": "一只手拿着一个宠物定制钥匙扣，钥匙扣上有一只小狗的立体形象，背景电脑屏幕上显示着同一只小狗的照片",
+        "descriptions": [
+          "一只手拿着一个宠物定制钥匙扣，钥匙扣上有一只小狗的立体形象，背景电脑屏幕上显示着同一只小狗的照片"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8493.JPG"
+      },
+      {
+        "product_group_id": "G142",
+        "category": "印章刻印",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8510.JPG"
+        ],
+        "description": "黄色印章盒上贴有猫咪头像标签，下方印有猫咪头像图案",
+        "descriptions": [
+          "黄色印章盒上贴有猫咪头像标签，下方印有猫咪头像图案"
+        ],
+        "visible_text": "皇脉印章自拍图",
+        "main_image": "IMG_8510.JPG"
+      },
+      {
+        "product_group_id": "G143",
+        "category": "印章刻印",
+        "pet_type": "狗|猫|兔|其他",
+        "item_count": 1,
+        "files": [
+          "IMG_8528.JPG"
+        ],
+        "description": "多个宠物印章刻印模版，包含宠物名字、爪印、简笔画形象和纪念日期等元素",
+        "descriptions": [
+          "多个宠物印章刻印模版，包含宠物名字、爪印、简笔画形象和纪念日期等元素"
+        ],
+        "visible_text": "六六, Tidy, Marry, Love, Marry We Love You Forever, ",
+        "main_image": "IMG_8528.JPG"
+      },
+      {
+        "product_group_id": "G049",
+        "category": "钥匙扣挂件",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8538.JPG"
+        ],
+        "description": "手掌上托着一个透明钥匙扣挂件，挂件内是一只小猫形象",
+        "descriptions": [
+          "手掌上托着一个透明钥匙扣挂件，挂件内是一只小猫形象"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8538.JPG"
+      },
+      {
+        "product_group_id": "G024",
+        "category": "首饰项链",
+        "pet_type": "兔",
+        "item_count": 1,
+        "files": [
+          "IMG_8581.JPG"
+        ],
+        "description": "银色圆形吊坠项链，吊坠内有一只仓鼠图案及汉字‘萍’",
+        "descriptions": [
+          "银色圆形吊坠项链，吊坠内有一只仓鼠图案及汉字‘萍’"
+        ],
+        "visible_text": "萍",
+        "main_image": "IMG_8581.JPG"
+      },
+      {
+        "product_group_id": "G026",
+        "category": "首饰项链",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8595.JPG"
+        ],
+        "description": "包装卡上固定着印有不同猫咪头像或形态的耳环，包装卡背景印有食物图案和“Thank you”字样",
+        "descriptions": [
+          "包装卡上固定着印有不同猫咪头像或形态的耳环，包装卡背景印有食物图案和“Thank you”字样"
+        ],
+        "visible_text": "Thank you",
+        "main_image": "IMG_8595.JPG"
+      },
+      {
+        "product_group_id": "G083",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8596.JPG"
+        ],
+        "description": "透明塑料包装内装有白色云朵形状的饰品，饰品上有小狗图案",
+        "descriptions": [
+          "透明塑料包装内装有白色云朵形状的饰品，饰品上有小狗图案"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8596.JPG"
+      },
+      {
+        "product_group_id": "G027",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8597.JPG"
+        ],
+        "description": "耳朵上佩戴着白色小狗造型的耳钉",
+        "descriptions": [
+          "耳朵上佩戴着白色小狗造型的耳钉"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8597.JPG"
+      },
+      {
+        "product_group_id": "G029",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8599.JPG",
+          "IMG_8600.JPG"
+        ],
+        "description": "猫头形状的展示板上有一对穿着黑色衣服的小狗造型耳钉",
+        "descriptions": [
+          "猫头形状的展示板上有一对穿着黑色衣服的小狗造型耳钉"
+        ],
+        "visible_text": "Fashion Jewelry",
+        "main_image": "IMG_8599.JPG"
+      },
+      {
+        "product_group_id": "G030",
+        "category": "首饰项链",
+        "pet_type": "猫|狗/狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8601.JPG",
+          "IMG_8602.JPG"
+        ],
+        "description": "一对印有泰迪犬头像并配有粉色蝴蝶结的耳环，展示在白色卡片上，旁边有佩戴效果的泰迪犬照片",
+        "descriptions": [
+          "一对印有泰迪犬头像并配有粉色蝴蝶结的耳环，展示在白色卡片上，旁边有佩戴效果的泰迪犬照片"
+        ],
+        "visible_text": "宠物定制, Fashion Jewelry, 无耳洞可以佩戴, 买二送一",
+        "main_image": "IMG_8601.JPG"
+      },
+      {
+        "product_group_id": "G031",
+        "category": "首饰项链",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8603.JPG"
+        ],
+        "description": "金色项链上挂着三个宠物头像吊坠，分别是猫和两只狗的头像",
+        "descriptions": [
+          "金色项链上挂着三个宠物头像吊坠，分别是猫和两只狗的头像"
+        ],
+        "visible_text": "私人高端定制宠物项链, 专属爪印 镀金工艺",
+        "main_image": "IMG_8603.JPG"
+      },
+      {
+        "product_group_id": "G050",
+        "category": "钥匙扣挂件",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_8606.JPG"
+        ],
+        "description": "红色钥匙扣上挂着圆形金属挂件，挂件上有宠物爪印和手的图案",
+        "descriptions": [
+          "红色钥匙扣上挂着圆形金属挂件，挂件上有宠物爪印和手的图案"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8606.JPG"
+      },
+      {
+        "product_group_id": "G051",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8607.JPG"
+        ],
+        "description": "钥匙扣挂件上印有一只狗和一只手的图案，以及英文文字",
+        "descriptions": [
+          "钥匙扣挂件上印有一只狗和一只手的图案，以及英文文字"
+        ],
+        "visible_text": "No longer by Our Side, Will live forever in our he",
+        "main_image": "IMG_8607.JPG"
+      },
+      {
+        "product_group_id": "G145",
+        "category": "印章刻印",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8612.JPG"
+        ],
+        "description": "多个透明印章上印有不同宠物头像，下方展示印出的猫头图案",
+        "descriptions": [
+          "多个透明印章上印有不同宠物头像，下方展示印出的猫头图案"
+        ],
+        "visible_text": "人物 猫 犬 兔 爬行类等等不限题材, 雨胤, Doub, 喵喵, 逗逗, 毛毛, Dami, 细节",
+        "main_image": "IMG_8612.JPG"
+      },
+      {
+        "product_group_id": "G146",
+        "category": "印章刻印",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8613.JPG"
+        ],
+        "description": "印章定制宣传图，展示了不同质量的猫头印章效果对比",
+        "descriptions": [
+          "印章定制宣传图，展示了不同质量的猫头印章效果对比"
+        ],
+        "visible_text": "未调色 实拍图, 市面廉价款 像素点巨大看不清, 雨胤微观技术【典藏款】 一：印章效果不次于印刷效果",
+        "main_image": "IMG_8613.JPG"
+      },
+      {
+        "product_group_id": "G147",
+        "category": "印章刻印",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8614.JPG"
+        ],
+        "description": "一只手拿着印章在纸张上盖印出多个比格犬头像图案",
+        "descriptions": [
+          "一只手拿着印章在纸张上盖印出多个比格犬头像图案"
+        ],
+        "visible_text": "产品实拍图, 便宜≠划算, 雨胤, 专业印章设计机构",
+        "main_image": "IMG_8614.JPG"
+      },
+      {
+        "product_group_id": "G148",
+        "category": "印章刻印",
+        "pet_type": "猫|狗|其他",
+        "item_count": 1,
+        "files": [
+          "IMG_8615.JPG"
+        ],
+        "description": "多个透明圆柱形印章，上面印有不同宠物头像和名字",
+        "descriptions": [
+          "多个透明圆柱形印章，上面印有不同宠物头像和名字"
+        ],
+        "visible_text": "印章是陪伴一生的纪念，多半斤粮钱换来的是，每一次都满足才是划算，喵喵，linna，憨，Doub，ti",
+        "main_image": "IMG_8615.JPG"
+      },
+      {
+        "product_group_id": "G094",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8700.JPG"
+        ],
+        "description": "透明猫形装饰品内含猫毛，作为猫毛冰箱贴",
+        "descriptions": [
+          "透明猫形装饰品内含猫毛，作为猫毛冰箱贴"
+        ],
+        "visible_text": "全透明可视 猫毛变成另一个它, CAT FUR REFRIGERATOR DECAL, 《猫毛冰箱贴",
+        "main_image": "IMG_8700.JPG"
+      },
+      {
+        "product_group_id": "G054",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8732.JPG"
+        ],
+        "description": "多个宠物形象定制的钥匙扣挂件，包括戴皇冠的柯基、橘猫、灰白猫、穿衣服的灰猫、戴围兜的柯基、三只金毛、戴苹果帽的法斗等",
+        "descriptions": [
+          "多个宠物形象定制的钥匙扣挂件，包括戴皇冠的柯基、橘猫、灰白猫、穿衣服的灰猫、戴围兜的柯基、三只金毛、戴苹果帽的法斗等"
+        ],
+        "visible_text": "萌宠钥匙扣定制",
+        "main_image": "IMG_8732.JPG"
+      },
+      {
+        "product_group_id": "G110",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8786.JPG"
+        ],
+        "description": "皮革钥匙扣上雕刻着一只阿拉斯加犬的形象",
+        "descriptions": [
+          "皮革钥匙扣上雕刻着一只阿拉斯加犬的形象"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8786.JPG"
+      },
+      {
+        "product_group_id": "G057",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8787.JPG"
+        ],
+        "description": "手绘宠物头像钥匙扣，左侧为狗头像，右侧为猫头像",
+        "descriptions": [
+          "手绘宠物头像钥匙扣，左侧为狗头像，右侧为猫头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8787.JPG"
+      },
+      {
+        "product_group_id": "G058",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8788.JPG"
+        ],
+        "description": "钥匙扣挂件上印着两只小狗图案，一只萨摩耶和一只比熊",
+        "descriptions": [
+          "钥匙扣挂件上印着两只小狗图案，一只萨摩耶和一只比熊"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8788.JPG"
+      },
+      {
+        "product_group_id": "G111",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8789.JPG"
+        ],
+        "description": "纸盒内有一个印着金毛犬图案的皮质钥匙扣，周围填充着白色碎纸条",
+        "descriptions": [
+          "纸盒内有一个印着金毛犬图案的皮质钥匙扣，周围填充着白色碎纸条"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8789.JPG"
+      },
+      {
+        "product_group_id": "G061",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8792.JPG"
+        ],
+        "description": "一个装在纸盒内的皮质钥匙扣，上面印着一只柯基犬的图案",
+        "descriptions": [
+          "一个装在纸盒内的皮质钥匙扣，上面印着一只柯基犬的图案"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8792.JPG"
+      },
+      {
+        "product_group_id": "G034",
+        "category": "首饰项链",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8836.JPG"
+        ],
+        "description": "车挂饰上印着猫咪头像图案",
+        "descriptions": [
+          "车挂饰上印着猫咪头像图案"
+        ],
+        "visible_text": "来图定制",
+        "main_image": "IMG_8836.JPG"
+      },
+      {
+        "product_group_id": "G035",
+        "category": "首饰项链",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8837.JPG"
+        ],
+        "description": "汽车后视镜上挂着一个圆形金属吊牌项链，吊牌上刻着一只猫的头像",
+        "descriptions": [
+          "汽车后视镜上挂着一个圆形金属吊牌项链，吊牌上刻着一只猫的头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8837.JPG"
+      },
+      {
+        "product_group_id": "G036",
+        "category": "首饰项链",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_8872.JPG",
+          "IMG_8873.JPG",
+          "IMG_8874.JPG"
+        ],
+        "description": "银色心形项链吊坠，上面刻有英文和宠物爪印图案，搭配翅膀装饰和蓝绿色宝石",
+        "descriptions": [
+          "银色心形项链吊坠，上面刻有英文和宠物爪印图案，搭配翅膀装饰和蓝绿色宝石"
+        ],
+        "visible_text": "No longer by my side... But Forever in my Heart",
+        "main_image": "IMG_8872.JPG"
+      },
+      {
+        "product_group_id": "G062",
+        "category": "钥匙扣挂件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_9023.JPG"
+        ],
+        "description": "米色圆形钥匙扣上印着一只萨摩耶犬的头像图案",
+        "descriptions": [
+          "米色圆形钥匙扣上印着一只萨摩耶犬的头像图案"
+        ],
+        "visible_text": "来图定做 可触摸的思念, 可定制宠物头像",
+        "main_image": "IMG_9023.JPG"
+      },
+      {
+        "product_group_id": "G063",
+        "category": "钥匙扣挂件",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_9024.JPG"
+        ],
+        "description": "棕色皮革钥匙扣，设计成宠物爪印形状，内部填充毛发",
+        "descriptions": [
+          "棕色皮革钥匙扣，设计成宠物爪印形状，内部填充毛发"
+        ],
+        "visible_text": "光亮钥匙环+按扣设计 开合顺滑，承重力强, 优质皮革材质：细腻耐磨的皮革面料 触感温润，边庒土线",
+        "main_image": "IMG_9024.JPG"
+      },
+      {
+        "product_group_id": "G042",
+        "category": "首饰项链",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_9025.JPG",
+          "IMG_9026.JPG"
+        ],
+        "description": "黄铜吊牌上刻着一只穿着毛衣的小狗图案，旁边有文字标识",
+        "descriptions": [
+          "黄铜吊牌上刻着一只穿着毛衣的小狗图案，旁边有文字标识"
+        ],
+        "visible_text": "Custom Pet Portrait!, Handmade Art",
+        "main_image": "IMG_9025.JPG"
+      },
+      {
+        "product_group_id": "G064",
+        "category": "钥匙扣挂件",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_9043.JPG"
+        ],
+        "description": "四个不同姿态和颜色的猫咪透明钥匙扣挂件，有打哈欠的白色猫咪、棕色打哈欠猫咪、暹罗猫和白色普通猫咪形象",
+        "descriptions": [
+          "四个不同姿态和颜色的猫咪透明钥匙扣挂件，有打哈欠的白色猫咪、棕色打哈欠猫咪、暹罗猫和白色普通猫咪形象"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_9043.JPG"
+      },
+      {
+        "product_group_id": "G065",
+        "category": "钥匙扣挂件",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_9044.JPG"
+        ],
+        "description": "四个透明亚克力钥匙扣，内嵌伸懒腰造型的猫咪，部分钥匙扣内可见猫毛",
+        "descriptions": [
+          "四个透明亚克力钥匙扣，内嵌伸懒腰造型的猫咪，部分钥匙扣内可见猫毛"
+        ],
+        "visible_text": "伸懒腰系列.猫毛收纳",
+        "main_image": "IMG_9044.JPG"
+      },
+      {
+        "product_group_id": "G043",
+        "category": "首饰项链",
+        "pet_type": "鸟",
+        "item_count": 1,
+        "files": [
+          "IMG_9045.JPG"
+        ],
+        "description": "银色项链吊坠，一面刻有文字，另一面刻有鸟的图案",
+        "descriptions": [
+          "银色项链吊坠，一面刻有文字，另一面刻有鸟的图案"
+        ],
+        "visible_text": "双面定制 万般皆可雕, blue, 2026.3.15, Always with me, 正面可以复",
+        "main_image": "IMG_9045.JPG"
+      }
+    ],
+    "figurine": [
+      {
+        "product_group_id": "G008",
+        "category": "3D打印摆件",
+        "pet_type": "狗|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8547.JPG",
+          "IMG_8548.JPG"
+        ],
+        "description": "左侧为橘猫照片，右侧为以橘猫为原型制作的3D立体浮雕工艺摆件 / 钥匙扣上有一个3D立体浮雕工艺的小狗形象，旁边展示图为金毛犬在草地上",
+        "descriptions": [
+          "左侧为橘猫照片，右侧为以橘猫为原型制作的3D立体浮雕工艺摆件",
+          "钥匙扣上有一个3D立体浮雕工艺的小狗形象，旁边展示图为金毛犬在草地上"
+        ],
+        "visible_text": "源头厂家, SF发货, 支持尺寸定制, 照片, 定制, 3D立体浮雕工艺 / 源头厂家, 48h发货, 材质轻便, 可定制尺寸, 3D立体浮雕工艺",
+        "main_image": "IMG_8547.JPG"
+      },
+      {
+        "product_group_id": "G011",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 3,
+        "files": [
+          "IMG_8568.JPG",
+          "IMG_8572.JPG",
+          "IMG_8573.JPG"
+        ],
+        "description": "一只手托着一个白色小狗3D打印摆件 / 一只穿着黄粉拼接衣服的雪纳瑞3D打印摆件，被手托着 / 四个穿着不同衣服的小狗3D打印摆件，摆放在浅色台面上",
+        "descriptions": [
+          "一只穿着黄粉拼接衣服的雪纳瑞3D打印摆件，被手托着",
+          "一只手托着一个白色小狗3D打印摆件",
+          "四个穿着不同衣服的小狗3D打印摆件，摆放在浅色台面上"
+        ],
+        "visible_text": "nova 12 Ultra Ultra Aperture Camera",
+        "main_image": "IMG_8568.JPG"
+      },
+      {
+        "product_group_id": "G211",
+        "category": "3D全息投影",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8523.PNG"
+        ],
+        "description": "粉色宠物3D全息投影仪，内置白色小狗影像",
+        "descriptions": [
+          "粉色宠物3D全息投影仪，内置白色小狗影像"
+        ],
+        "visible_text": "宠物3D全息投影 可语音互动/感应互动 复活爱宠 数字生命 宠物投影 可定制不同宠物 8段高清互动影",
+        "main_image": "IMG_8523.PNG"
+      },
+      {
+        "product_group_id": "G001",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_6470.JPG"
+        ],
+        "description": "书桌上的金毛犬3D打印摆件，背景有相框和书籍",
+        "descriptions": [
+          "书桌上的金毛犬3D打印摆件，背景有相框和书籍"
+        ],
+        "visible_text": "Golden Companion, 犬の癒し, 宠爱一生, Petites",
+        "main_image": "IMG_6470.JPG"
+      },
+      {
+        "product_group_id": "G002",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_6471.JPG"
+        ],
+        "description": "三个不同大小的3D打印小狗摆件，旁边附有原型小狗照片",
+        "descriptions": [
+          "三个不同大小的3D打印小狗摆件，旁边附有原型小狗照片"
+        ],
+        "visible_text": "小号（6cm）、大号（12cm）、中号（9cm）、草坪底座尺寸高2cm，直径15cm",
+        "main_image": "IMG_6471.JPG"
+      },
+      {
+        "product_group_id": "G003",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_6472.JPG"
+        ],
+        "description": "一只手托着吉娃娃3D打印摆件，背景是吉娃娃照片",
+        "descriptions": [
+          "一只手托着吉娃娃3D打印摆件，背景是吉娃娃照片"
+        ],
+        "visible_text": "3d打印相比软陶类产品更精细，耳朵可以做的更薄更仿真。软陶类产品耳朵做的太厚是个很大的缺陷",
+        "main_image": "IMG_6472.JPG"
+      },
+      {
+        "product_group_id": "G004",
+        "category": "3D打印摆件",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_6478.JPG"
+        ],
+        "description": "一个灰白条纹猫咪的3D打印摆件，展示了猫咪的正面和背面视角",
+        "descriptions": [
+          "一个灰白条纹猫咪的3D打印摆件，展示了猫咪的正面和背面视角"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_6478.JPG"
+      },
+      {
+        "product_group_id": "G005",
+        "category": "3D打印摆件",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_7342.JPG"
+        ],
+        "description": "两个透明3D打印摆件，分别印着不同花色的猫咪头像",
+        "descriptions": [
+          "两个透明3D打印摆件，分别印着不同花色的猫咪头像"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_7342.JPG"
+      },
+      {
+        "product_group_id": "G069",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8507.JPG"
+        ],
+        "description": "透明胶囊挂件内装有小狗毛发制作的金毛犬造型挂件，挂件带有金色项圈，通过金色链子悬挂",
+        "descriptions": [
+          "透明胶囊挂件内装有小狗毛发制作的金毛犬造型挂件，挂件带有金色项圈，通过金色链子悬挂"
+        ],
+        "visible_text": "小狗毛发收纳胶囊挂件",
+        "main_image": "IMG_8507.JPG"
+      },
+      {
+        "product_group_id": "G070",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8508.JPG"
+        ],
+        "description": "六个透明狗狗毛发收纳盒，分别标有博美、比熊、泰迪、雪瑞纳、西高地、柴犬字样，盒内有对应狗狗形象的凸起造型",
+        "descriptions": [
+          "六个透明狗狗毛发收纳盒，分别标有博美、比熊、泰迪、雪瑞纳、西高地、柴犬字样，盒内有对应狗狗形象的凸起造型"
+        ],
+        "visible_text": "博美、比熊、泰迪、雪瑞纳、西高地、柴犬、狗狗毛发收纳盒、每时每刻都拥有狗狗的陪伴",
+        "main_image": "IMG_8508.JPG"
+      },
+      {
+        "product_group_id": "G071",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8509.JPG"
+        ],
+        "description": "透明外壳内包裹着类似柯基犬造型的毛绒玩偶",
+        "descriptions": [
+          "透明外壳内包裹着类似柯基犬造型的毛绒玩偶"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8509.JPG"
+      },
+      {
+        "product_group_id": "G074",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8522.JPG"
+        ],
+        "description": "木质小狗形状的镂空摆件，边缘有波浪形花纹并镶嵌小铆钉",
+        "descriptions": [
+          "木质小狗形状的镂空摆件，边缘有波浪形花纹并镶嵌小铆钉"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8522.JPG"
+      },
+      {
+        "product_group_id": "G079",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8536.JPG"
+        ],
+        "description": "展示多种透明猫咪造型挂件，挂件内可装入宠物毛发",
+        "descriptions": [
+          "展示多种透明猫咪造型挂件，挂件内可装入宠物毛发"
+        ],
+        "visible_text": "うちの子のけだまだま、ペットの毛の入れ物、全6種、400円、ワイヤーリングつき、三毛猫、ハチワレ、茶",
+        "main_image": "IMG_8536.JPG"
+      },
+      {
+        "product_group_id": "G006",
+        "category": "3D打印摆件",
+        "pet_type": "猫|狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8540.JPG"
+        ],
+        "description": "两个宠物摇头摆件，左边是橘猫，右边是穿着黑白菱格衣服的小狗",
+        "descriptions": [
+          "两个宠物摇头摆件，左边是橘猫，右边是穿着黑白菱格衣服的小狗"
+        ],
+        "visible_text": "头部可左右摇动, 宠物摇头摆件定制",
+        "main_image": "IMG_8540.JPG"
+      },
+      {
+        "product_group_id": "G007",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8546.JPG"
+        ],
+        "description": "3D立体浮雕冰箱贴，展示小女孩和边牧犬形象",
+        "descriptions": [
+          "3D立体浮雕冰箱贴，展示小女孩和边牧犬形象"
+        ],
+        "visible_text": "青梵和溪·小主人❤️小灰灰, 千万色彩还原, 浮雕深度可定制3-5mm, 48h发货, 源头工厂",
+        "main_image": "IMG_8546.JPG"
+      },
+      {
+        "product_group_id": "G010",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8567.JPG"
+        ],
+        "description": "黑色3D打印的小狗摆件放置在一摞书上",
+        "descriptions": [
+          "黑色3D打印的小狗摆件放置在一摞书上"
+        ],
+        "visible_text": "How to M, MONDAY NIGHT, 丹麦, one more BIT, PENGUN",
+        "main_image": "IMG_8567.JPG"
+      },
+      {
+        "product_group_id": "G012",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8569.JPG"
+        ],
+        "description": "一个柯基犬形象的3D打印摆件，摆放在一个红色盒子上",
+        "descriptions": [
+          "一个柯基犬形象的3D打印摆件，摆放在一个红色盒子上"
+        ],
+        "visible_text": "血糖仪、Blood Glucose Meter、LIFE BETTER",
+        "main_image": "IMG_8569.JPG"
+      },
+      {
+        "product_group_id": "G081",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8571.JPG"
+        ],
+        "description": "一个黑白相间的宠物狗摆件，背部有白色斑块",
+        "descriptions": [
+          "一个黑白相间的宠物狗摆件，背部有白色斑块"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8571.JPG"
+      },
+      {
+        "product_group_id": "G015",
+        "category": "3D打印摆件",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8574.JPG"
+        ],
+        "description": "一个棕黄色的小狗3D打印摆件，小狗吐着舌头，脖颈处有毛发纹理",
+        "descriptions": [
+          "一个棕黄色的小狗3D打印摆件，小狗吐着舌头，脖颈处有毛发纹理"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8574.JPG"
+      },
+      {
+        "product_group_id": "G219",
+        "category": "3D内雕",
+        "pet_type": "兔",
+        "item_count": 1,
+        "files": [
+          "IMG_8576.JPG"
+        ],
+        "description": "圆形金属吊坠内雕着一只仓鼠图案",
+        "descriptions": [
+          "圆形金属吊坠内雕着一只仓鼠图案"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8576.JPG"
+      },
+      {
+        "product_group_id": "G085",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8648.JPG"
+        ],
+        "description": "木质猫形摆件，可用于放置小物件",
+        "descriptions": [
+          "木质猫形摆件，可用于放置小物件"
+        ],
+        "visible_text": "支持定制",
+        "main_image": "IMG_8648.JPG"
+      },
+      {
+        "product_group_id": "G086",
+        "category": "其他定制",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8649.JPG"
+        ],
+        "description": "一只手拿着德国牧羊犬头像的定制摆件，背景是同一只德牧的照片",
+        "descriptions": [
+          "一只手拿着德国牧羊犬头像的定制摆件，背景是同一只德牧的照片"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8649.JPG"
+      },
+      {
+        "product_group_id": "G087",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8650.JPG"
+        ],
+        "description": "一只手拿着猫咪头像小摆件，旁边是一只真实猫咪",
+        "descriptions": [
+          "一只手拿着猫咪头像小摆件，旁边是一只真实猫咪"
+        ],
+        "visible_text": "来图制作 宠物定制",
+        "main_image": "IMG_8650.JPG"
+      },
+      {
+        "product_group_id": "G093",
+        "category": "其他定制",
+        "pet_type": "null",
+        "item_count": 1,
+        "files": [
+          "IMG_8699.JPG"
+        ],
+        "description": "透明猫咪造型容器，内部装有纤维物质，旁边有一个透明小花瓶",
+        "descriptions": [
+          "透明猫咪造型容器，内部装有纤维物质，旁边有一个透明小花瓶"
+        ],
+        "visible_text": "猫毛也有归宿, 收藏它的小日常, 可爱造型 颜值好物, 坚固耐用 ABS材质, 强力磁吸 稳固不易掉",
+        "main_image": "IMG_8699.JPG"
+      },
+      {
+        "product_group_id": "G095",
+        "category": "其他定制",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8701.JPG"
+        ],
+        "description": "黄色背景上贴有透明小猫造型收集瓶，瓶内装有类似草丝物品，旁边有透明小瓶插着几根细棍，背景挂有几幅人物抽象画。",
+        "descriptions": [
+          "黄色背景上贴有透明小猫造型收集瓶，瓶内装有类似草丝物品，旁边有透明小瓶插着几根细棍，背景挂有几幅人物抽象画。"
+        ],
+        "visible_text": "透明小猫收集瓶, 强力磁吸, 可爱造型, 硅胶塞子",
+        "main_image": "IMG_8701.JPG"
+      },
+      {
+        "product_group_id": "G220",
+        "category": "3D内雕",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8743.JPG"
+        ],
+        "description": "透明水晶立方体内部3D内雕着婴儿和拉布拉多犬的黑白图像",
+        "descriptions": [
+          "透明水晶立方体内部3D内雕着婴儿和拉布拉多犬的黑白图像"
+        ],
+        "visible_text": "水晶内雕人像, 3D人像 | 专业定制 | 专属客服",
+        "main_image": "IMG_8743.JPG"
+      }
+    ],
+    "wool-felt": [
+      {
+        "product_group_id": "G206",
+        "category": "羊毛毡",
+        "pet_type": "狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8585.JPG",
+          "IMG_8586.JPG"
+        ],
+        "description": "多个羊毛毡小狗挂件挂在藤编包上，有不同颜色和造型的小狗形象 / 一只白色和棕色相间的泰迪犬旁边有一个同款造型的羊毛毡小狗挂件",
+        "descriptions": [
+          "多个羊毛毡小狗挂件挂在藤编包上，有不同颜色和造型的小狗形象",
+          "一只白色和棕色相间的泰迪犬旁边有一个同款造型的羊毛毡小狗挂件"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8585.JPG"
+      },
+      {
+        "product_group_id": "G204",
+        "category": "羊毛毡",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8518.JPG"
+        ],
+        "description": "毛毯上印着多个萨摩耶犬头像和爪印、骨头图案，旁边有一只萨摩耶犬",
+        "descriptions": [
+          "毛毯上印着多个萨摩耶犬头像和爪印、骨头图案，旁边有一只萨摩耶犬"
+        ],
+        "visible_text": "宠物照片定制毛毯",
+        "main_image": "IMG_8518.JPG"
+      },
+      {
+        "product_group_id": "G205",
+        "category": "羊毛毡",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8583.JPG"
+        ],
+        "description": "一只手拿着一个灰色泰迪犬羊毛毡挂件，旁边趴着一只灰色泰迪犬",
+        "descriptions": [
+          "一只手拿着一个灰色泰迪犬羊毛毡挂件，旁边趴着一只灰色泰迪犬"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8583.JPG"
+      },
+      {
+        "product_group_id": "G208",
+        "category": "羊毛毡",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8665.JPG"
+        ],
+        "description": "多个不同品种和颜色的羊毛毡宠物狗头像展示",
+        "descriptions": [
+          "多个不同品种和颜色的羊毛毡宠物狗头像展示"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8665.JPG"
+      },
+      {
+        "product_group_id": "G209",
+        "category": "羊毛毡",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8770.JPG"
+        ],
+        "description": "印有两只狗狗照片的定制毛毯，背景为绿蓝格子并点缀白色小花",
+        "descriptions": [
+          "印有两只狗狗照片的定制毛毯，背景为绿蓝格子并点缀白色小花"
+        ],
+        "visible_text": "宠物照片 定制毛毯",
+        "main_image": "IMG_8770.JPG"
+      }
+    ],
+    "phone-case": [
+      {
+        "product_group_id": "G241",
+        "category": "手机壳",
+        "pet_type": "狗",
+        "item_count": 3,
+        "files": [
+          "IMG_8637.JPG",
+          "IMG_8641.JPG",
+          "IMG_8642.JPG"
+        ],
+        "description": "手机壳上印着多张黑色小狗的照片和卡通图案 / 手机壳上印有黑色法国斗牛犬照片和卡通女孩形象 / 手机壳上印有多张不同姿态的小狗图案",
+        "descriptions": [
+          "手机壳上印有黑色法国斗牛犬照片和卡通女孩形象",
+          "手机壳上印着多张黑色小狗的照片和卡通图案",
+          "手机壳上印有多张不同姿态的小狗图案"
+        ],
+        "visible_text": "Pick me UP!, SWE, ORIGINAL / Sweet、ORIGINAL、GO、PUP!",
+        "main_image": "IMG_8637.JPG"
+      },
+      {
+        "product_group_id": "G242",
+        "category": "手机壳",
+        "pet_type": "狗|猫|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8638.JPG",
+          "IMG_8643.JPG"
+        ],
+        "description": "手机壳上印着多只不同姿态的橘白猫图案 / 手机壳上印着多只不同品种宠物猫狗的贴图，配有‘萌主’‘萌神’等文字",
+        "descriptions": [
+          "手机壳上印着多只不同品种宠物猫狗的贴图，配有‘萌主’‘萌神’等文字",
+          "手机壳上印着多只不同姿态的橘白猫图案"
+        ],
+        "visible_text": "暴富100%、萌主、萌神、MY LOVE",
+        "main_image": "IMG_8638.JPG"
+      },
+      {
+        "product_group_id": "G243",
+        "category": "手机壳",
+        "pet_type": "狗|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8639.JPG",
+          "IMG_8644.JPG",
+          "IMG_8645.JPG"
+        ],
+        "description": "手机壳上印着四只不同姿态的猫咪图案 / 透明手机壳上贴有多个不同姿态的小狗贴纸，还配有一些卡通装饰贴纸",
+        "descriptions": [
+          "透明手机壳上贴有多个不同姿态的小狗贴纸，还配有一些卡通装饰贴纸",
+          "手机壳上印着四只不同姿态的猫咪图案"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8639.JPG"
+      },
+      {
+        "product_group_id": "G291",
+        "category": "手机气囊支架",
+        "pet_type": "狗|猫|null|猫|狗",
+        "item_count": 2,
+        "files": [
+          "IMG_8718.JPG",
+          "IMG_8719.JPG"
+        ],
+        "description": "手机气囊支架上印着猫和狗的头像图案 / 手机气囊支架上印有比熊犬、猫咪和小女孩的头像",
+        "descriptions": [
+          "手机气囊支架上印着猫和狗的头像图案",
+          "手机气囊支架上印有比熊犬、猫咪和小女孩的头像"
+        ],
+        "visible_text": "随心定制, 免费抠图, 一件起订, 定制, 手机气囊支架 / 定制 手机气囊支架",
+        "main_image": "IMG_8718.JPG"
+      },
+      {
+        "product_group_id": "G239",
+        "category": "手机壳",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8636.PNG"
+        ],
+        "description": "手机壳上印着三只不同姿态的小狗头像，周围有装饰图案和文字",
+        "descriptions": [
+          "手机壳上印着三只不同姿态的小狗头像，周围有装饰图案和文字"
+        ],
+        "visible_text": "Nice、LUCKY、PUPPY!、Hi、一键抠图 来图定制",
+        "main_image": "IMG_8636.PNG"
+      },
+      {
+        "product_group_id": "G240",
+        "category": "手机壳",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8647.PNG"
+        ],
+        "description": "两个手机壳，左边手机壳上有卡通人物、照片和字母装饰，右边手机壳上有两只猫的照片和猫爪、笑脸图案",
+        "descriptions": [
+          "两个手机壳，左边手机壳上有卡通人物、照片和字母装饰，右边手机壳上有两只猫的照片和猫爪、笑脸图案"
+        ],
+        "visible_text": "内有软件一键抠图 任意机型自主设计",
+        "main_image": "IMG_8647.PNG"
+      },
+      {
+        "product_group_id": "G244",
+        "category": "手机壳",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8640.JPG"
+        ],
+        "description": "手机壳上贴有多张黑狗的照片和英文贴纸",
+        "descriptions": [
+          "手机壳上贴有多张黑狗的照片和英文贴纸"
+        ],
+        "visible_text": "It will be okay. YO! BE KIND. choose happy. b or l",
+        "main_image": "IMG_8640.JPG"
+      },
+      {
+        "product_group_id": "G249",
+        "category": "手机壳",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8646.JPG"
+        ],
+        "description": "透明手机壳上贴有多张柯基犬头像贴纸，还配有可爱文字和装饰图案",
+        "descriptions": [
+          "透明手机壳上贴有多张柯基犬头像贴纸，还配有可爱文字和装饰图案"
+        ],
+        "visible_text": "保持可爱、今天敲可爱、Go狗一",
+        "main_image": "IMG_8646.JPG"
+      }
+    ],
+    "painting": [
+      {
+        "product_group_id": "G286",
+        "category": "手绘画像",
+        "pet_type": "狗|狗|猫",
+        "item_count": 2,
+        "files": [
+          "IMG_8767.JPG",
+          "IMG_8768.JPG"
+        ],
+        "description": "一幅白色小狗的手绘画像，穿着蓝白条纹衣服，背景为蓝色，下方展示三幅不同背景色的小狗画像示例 / 手绘插画展示了一只穿着蓝白条纹衣服的小狗，下方还有三只不同宠物（小狗、白猫、橘猫）的手绘头像",
+        "descriptions": [
+          "手绘插画展示了一只穿着蓝白条纹衣服的小狗，下方还有三只不同宠物（小狗、白猫、橘猫）的手绘头像",
+          "一幅白色小狗的手绘画像，穿着蓝白条纹衣服，背景为蓝色，下方展示三幅不同背景色的小狗画像示例"
+        ],
+        "visible_text": "草野遐想，案例仅供参考，我们将根据您宠物的实际样貌选择合适背景 / 纯色梦境，案例仅供参考，我们将根据您宠物的实际样貌选择合适背景",
+        "main_image": "IMG_8767.JPG"
+      },
+      {
+        "product_group_id": "G212",
+        "category": "砂岩画",
+        "pet_type": "狗|兔|其他",
+        "item_count": 1,
+        "files": [
+          "IMG_8531.JPG"
+        ],
+        "description": "三张宠物砂岩画，中间是比熊犬头像，两侧分别是被手托着的鼠和穿着红色衣服的比熊犬",
+        "descriptions": [
+          "三张宠物砂岩画，中间是比熊犬头像，两侧分别是被手托着的鼠和穿着红色衣服的比熊犬"
+        ],
+        "visible_text": "宠物定制砂岩画, 把爱宠的模样，刻进砂岩肌理里，留住每一份可爱, 工厂直营 支持定制·来图加工 天然",
+        "main_image": "IMG_8531.JPG"
+      },
+      {
+        "product_group_id": "G278",
+        "category": "手绘画像",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8712.JPG"
+        ],
+        "description": "左侧为客户发送的白色猫咪照片，右侧为绘制完成的猫咪画像效果图",
+        "descriptions": [
+          "左侧为客户发送的白色猫咪照片，右侧为绘制完成的猫咪画像效果图"
+        ],
+        "visible_text": "成品效果图, 客户发来的照片, 完成稿",
+        "main_image": "IMG_8712.JPG"
+      },
+      {
+        "product_group_id": "G279",
+        "category": "手绘画像",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8713.JPG"
+        ],
+        "description": "一幅手绘的布偶猫画像，猫咪有着大大的蓝眼睛和粉鼻子",
+        "descriptions": [
+          "一幅手绘的布偶猫画像，猫咪有着大大的蓝眼睛和粉鼻子"
+        ],
+        "visible_text": "来图定制送精美画框, 专业手绘 宠物画像",
+        "main_image": "IMG_8713.JPG"
+      },
+      {
+        "product_group_id": "G280",
+        "category": "手绘画像",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8716.JPG"
+        ],
+        "description": "一只戴着黄色花瓣头饰的白色小狗，旁边是它的手绘画像",
+        "descriptions": [
+          "一只戴着黄色花瓣头饰的白色小狗，旁边是它的手绘画像"
+        ],
+        "visible_text": "西子画舍 记录宠物的最萌瞬间~ 手工绘画·专业定制·送框包邮",
+        "main_image": "IMG_8716.JPG"
+      },
+      {
+        "product_group_id": "G281",
+        "category": "手绘画像",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8717.JPG"
+        ],
+        "description": "一幅彩色手绘狗狗画像，下方展示了画像的线稿到成品的过程",
+        "descriptions": [
+          "一幅彩色手绘狗狗画像，下方展示了画像的线稿到成品的过程"
+        ],
+        "visible_text": "西子画舍 手绘画像 每幅作品都是精心刻画",
+        "main_image": "IMG_8717.JPG"
+      },
+      {
+        "product_group_id": "G282",
+        "category": "手绘画像",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8763.JPG"
+        ],
+        "description": "一只猫和它对应的手绘油画肖像，手绘肖像背景为蓝色并带有粉色花朵",
+        "descriptions": [
+          "一只猫和它对应的手绘油画肖像，手绘肖像背景为蓝色并带有粉色花朵"
+        ],
+        "visible_text": "定格萌宠",
+        "main_image": "IMG_8763.JPG"
+      },
+      {
+        "product_group_id": "G283",
+        "category": "手绘画像",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8764.JPG"
+        ],
+        "description": "一只戴着蓝色蝴蝶结的比熊犬与它的手绘画像并排展示，画像背景为绿植和花朵",
+        "descriptions": [
+          "一只戴着蓝色蝴蝶结的比熊犬与它的手绘画像并排展示，画像背景为绿植和花朵"
+        ],
+        "visible_text": "毛孩留影 爱意永存",
+        "main_image": "IMG_8764.JPG"
+      },
+      {
+        "product_group_id": "G284",
+        "category": "手绘画像",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8765.JPG"
+        ],
+        "description": "一幅手绘风格的比熊犬画像，比熊犬在开满小雏菊的草地上，面带微笑",
+        "descriptions": [
+          "一幅手绘风格的比熊犬画像，比熊犬在开满小雏菊的草地上，面带微笑"
+        ],
+        "visible_text": "时光有痕 爱意无声",
+        "main_image": "IMG_8765.JPG"
+      },
+      {
+        "product_group_id": "G285",
+        "category": "手绘画像",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8766.JPG"
+        ],
+        "description": "一只穿着绿色背带的小狗坐在画前，画中是同一只小狗的手绘肖像",
+        "descriptions": [
+          "一只穿着绿色背带的小狗坐在画前，画中是同一只小狗的手绘肖像"
+        ],
+        "visible_text": "方寸肖像 永恒陪伴",
+        "main_image": "IMG_8766.JPG"
+      },
+      {
+        "product_group_id": "G288",
+        "category": "手绘画像",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8938.JPG"
+        ],
+        "description": "一幅白色小狗的手绘插画，小狗眨着一只眼睛，抬起一只爪子",
+        "descriptions": [
+          "一幅白色小狗的手绘插画，小狗眨着一只眼睛，抬起一只爪子"
+        ],
+        "visible_text": "",
+        "main_image": "IMG_8938.JPG"
+      },
+      {
+        "product_group_id": "G289",
+        "category": "手绘画像",
+        "pet_type": "狗|猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8939.JPG"
+        ],
+        "description": "四张不同风格的宠物手绘画像，包括雪纳瑞、金毛、两只狗和两只猫的画像，中间有‘宠物画像定制’文字",
+        "descriptions": [
+          "四张不同风格的宠物手绘画像，包括雪纳瑞、金毛、两只狗和两只猫的画像，中间有‘宠物画像定制’文字"
+        ],
+        "visible_text": "宠物画像定制",
+        "main_image": "IMG_8939.JPG"
+      },
+      {
+        "product_group_id": "G294",
+        "category": "装饰画",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8944.JPG"
+        ],
+        "description": "一幅装饰画上印着一只大笑的猫咪头像，头顶还有一条小鱼，背景是绿白格子，上方有字母COOKIE",
+        "descriptions": [
+          "一幅装饰画上印着一只大笑的猫咪头像，头顶还有一条小鱼，背景是绿白格子，上方有字母COOKIE"
+        ],
+        "visible_text": "COOKIE, 尘拙萌宠 -毛孩子的专属定制-",
+        "main_image": "IMG_8944.JPG"
+      },
+      {
+        "product_group_id": "G290",
+        "category": "手绘画像",
+        "pet_type": "猫",
+        "item_count": 1,
+        "files": [
+          "IMG_8946.JPG"
+        ],
+        "description": "一幅手绘风格的画作，画中有两只戴着生日帽的猫咪头像，背景是彩色涂鸦风格，有气球和爱心等装饰图案，底部有文字‘nini’和‘Tuan’",
+        "descriptions": [
+          "一幅手绘风格的画作，画中有两只戴着生日帽的猫咪头像，背景是彩色涂鸦风格，有气球和爱心等装饰图案，底部有文字‘nini’和‘Tuan’"
+        ],
+        "visible_text": "nini, Tuan, 可定制任意 尺寸/颜色/文字",
+        "main_image": "IMG_8946.JPG"
+      },
+      {
+        "product_group_id": "G298",
+        "category": "装饰画",
+        "pet_type": "狗",
+        "item_count": 1,
+        "files": [
+          "IMG_8988.JPG"
+        ],
+        "description": "两张装饰画展示侧面延展效果和侧面空白效果，画中男孩抱着一只白色小狗",
+        "descriptions": [
+          "两张装饰画展示侧面延展效果和侧面空白效果，画中男孩抱着一只白色小狗"
+        ],
+        "visible_text": "画面效果对比，PRIVATE CUSTOMIZATION OF FRAMELESS PHOTOS，①",
+        "main_image": "IMG_8988.JPG"
+      }
+    ]
+  },
+  "excluded": [
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "透明支架上印有柴犬头像图案 / 两个透明支架上印有柴犬头像图案",
+      "files": [
+        "IMG_8720.JPG",
+        "IMG_8722.JPG"
+      ]
+    },
+    {
+      "reason": "排除关键词: ['动漫风格', '动漫']",
+      "category": "其他定制",
+      "description": "透明气囊支架上印着小孩嘟嘴的照片 / 手机气囊支架上印有动漫风格的人物和猫咪形象",
+      "files": [
+        "IMG_8721.JPG",
+        "IMG_8724.JPG"
+      ]
+    },
+    {
+      "reason": "排除关键词: ['来图定制', 'DIY']",
+      "category": "其他定制",
+      "description": "银色怀表表盘上印有DIY来图定制字样，可进行个性化定制 / 一只手拿着一个银色怀表，怀表表盘内有一只熊猫图案",
+      "files": [
+        "IMG_9012.JPG",
+        "IMG_9015.JPG",
+        "IMG_9016.JPG"
+      ]
+    },
+    {
+      "reason": "排除关键词: ['定制须知']",
+      "category": "其他定制",
+      "description": "一张宠物定制摆件的定制须知图，包含猫和狗的示例图以及摆件效果图",
+      "files": [
+        "IMG_7344.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "相框纪念册",
+      "description": "木质相框摆件，放置在书籍上，背景有干草装饰",
+      "files": [
+        "IMG_8495.JPG",
+        "IMG_8496.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "相框纪念册",
+      "description": "木质桌面上摆放着两个白色相框，相框下压着几本书。",
+      "files": [
+        "IMG_8497.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一个白色双联相框及配件，包括黑色印台和两张拓印纸，相框标注了尺寸。",
+      "files": [
+        "IMG_8498.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "相框纪念册",
+      "description": "一个黑色边框的四宫格相框，旁边展示了红色印台和两张拓印纸",
+      "files": [
+        "IMG_8499.JPG",
+        "IMG_8500.JPG",
+        "IMG_8501.JPG"
+      ]
+    },
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "多款印有不同猫咪图案的便签纸，包装上有躲猫猫便签字样",
+      "files": [
+        "IMG_8521.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "相框纪念册",
+      "description": "木质纪念牌上带有黑丝带图案和英文纪念文字，下方有蜡烛、十字架和书的装饰",
+      "files": [
+        "IMG_8524.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "木质盒子里有两个带软木塞的玻璃瓶，盒子可打开，用于定制雕刻留念",
+      "files": [
+        "IMG_8529.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "首饰项链",
+      "description": "耳朵上佩戴着海豹形状的耳钉",
+      "files": [
+        "IMG_8598.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "钥匙扣挂件",
+      "description": "一个银色的圆形金属钥匙扣，表面有细密的网格纹理。",
+      "files": [
+        "IMG_8608.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一只金黄色的小猫从白色的包中探出头来，睁着大眼睛向上看",
+      "files": [
+        "IMG_8622.JPG"
+      ]
+    },
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "两只猫咪姿态的图片，用于说明定制猫咪铁丝骨架姿势的示例",
+      "files": [
+        "IMG_8661.JPG"
+      ]
+    },
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "一张以粉色为背景的宣传图，展示了一只白色比熊犬正面和背面定制成特定姿势的示例，提示用户发送宠物图片可定制同样姿势。",
+      "files": [
+        "IMG_8662.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一位红发女子戴着帽子和白色法国斗牛犬的合照",
+      "files": [
+        "IMG_8669.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一位男子牵着一只柴犬站在户外小路上",
+      "files": [
+        "IMG_8671.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一位戴着印有金毛犬图案帽子的人与一只金毛犬亲昵互动",
+      "files": [
+        "IMG_8672.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一位女士牵着一只金毛犬站在绿植旁的户外场景",
+      "files": [
+        "IMG_8674.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "抱枕",
+      "description": "白色抱枕上印着红色的‘来图定制抱枕’字样",
+      "files": [
+        "IMG_8685.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "抱枕",
+      "description": "米色抱枕上印有红色和黑色文字，表明支持来图定制和任意照片定制",
+      "files": [
+        "IMG_8686.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "刺绣服装",
+      "description": "白色T恤上印着定制图案，展示了定制流程，包括选择款式颜色、提供需求定制图案、确认效果。",
+      "files": [
+        "IMG_8705.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "抱枕",
+      "description": "多个印有不同人物头像的抱枕堆叠在一起",
+      "files": [
+        "IMG_8711.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "手机气囊支架定制产品图，展示了多个动漫风格的卡通形象支架，其中一个贴在手机背面",
+      "files": [
+        "IMG_8723.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "帆布袋",
+      "description": "木架上挂着印有‘来图定制 LOGO/照片/文字’的白色帆布袋，旁边有绿植和杂志",
+      "files": [
+        "IMG_8725.JPG",
+        "IMG_8727.JPG",
+        "IMG_8728.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "帆布袋",
+      "description": "三个不同尺寸的空白帆布袋，分别标注了小号、中号和大号及对应的尺寸。",
+      "files": [
+        "IMG_8726.JPG"
+      ]
+    },
+    {
+      "reason": "排除关键词: ['史努比']",
+      "category": "帆布袋",
+      "description": "印有史努比图案的白色帆布袋定制流程图，中间为彩色史努比图案，两侧为空白帆布袋示例",
+      "files": [
+        "IMG_8729.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "帆布袋",
+      "description": "展示三种尺寸的白色帆布袋定制产品图，标注了尺寸和产品参数",
+      "files": [
+        "IMG_8730.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "刺绣服装",
+      "description": "白色T恤上绣有卡通风格的情侣和婴儿形象，右侧展示真实人物穿着效果，下方展示多种颜色的T恤。",
+      "files": [
+        "IMG_8736.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "刺绣服装",
+      "description": "粉色T恤上绣有一个卡通婴儿形象，旁边有文字Joshua's Mum",
+      "files": [
+        "IMG_8737.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "120片拼图，拼图可来图定制",
+      "files": [
+        "IMG_8738.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "一个带有300片拼图定制字样的拼图框，拼图尚未拼合",
+      "files": [
+        "IMG_8739.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一位戴着蓝色假发和墨镜的女性，正将一颗红色水果放入口中",
+      "files": [
+        "IMG_8740.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "拼图上印着一对男女在秋天户外场景的合照",
+      "files": [
+        "IMG_8741.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "木质和白色相框内是拼图照片，左边是女性单人照，右边是情侣合照",
+      "files": [
+        "IMG_8742.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "3D内雕",
+      "description": "水晶内雕摆件上呈现一位女性的3D立体照片",
+      "files": [
+        "IMG_8744.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "3D内雕",
+      "description": "透明水晶方块内雕着一位女性立体照片",
+      "files": [
+        "IMG_8745.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "3D内雕",
+      "description": "透明水晶方块内雕着一个婴儿的侧面形象",
+      "files": [
+        "IMG_8746.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "3D内雕",
+      "description": "心形水晶内雕有一对男女拥抱的照片，底部刻有英文文字",
+      "files": [
+        "IMG_8747.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "两个方形金属边框的折叠镜，其中一个镜面上有‘来图定制’的文字标识",
+      "files": [
+        "IMG_8748.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一个边长为70mm的白色正方形物体，顶部有两个金属部件",
+      "files": [
+        "IMG_8749.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "PU皮磨砂工艺便携镜子，支持来图定制",
+      "files": [
+        "IMG_8751.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "白色地毯上印着红色的‘来图定制’以及‘写真 动漫 logo’字样",
+      "files": [
+        "IMG_8752.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "地垫上印着来图定制的文字广告",
+      "files": [
+        "IMG_8753.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "白色地垫上印有红色和黑色文字，宣传来图定制服务",
+      "files": [
+        "IMG_8754.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一张白色背景图，上面有红色文字‘定制款 不支持退货’",
+      "files": [
+        "IMG_8759.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "一顶渔夫帽上印着多个相同的女性头像图案，配有文字‘我的女朋友’",
+      "files": [
+        "IMG_8795.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "多个渔夫帽上印着不同人物头像图案，展示买家部分定制案例",
+      "files": [
+        "IMG_8796.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "渔夫帽定制流程图，展示了从选择款式、提供高清图片到确认效果图的三步定制过程",
+      "files": [
+        "IMG_8797.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一顶白色渔夫帽的尺寸标示图，标注了不同码数的周长和高度范围",
+      "files": [
+        "IMG_8798.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "床上用品的定制区域示意图，标明可定制部分",
+      "files": [
+        "IMG_8799.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "抱枕",
+      "description": "沙发上放着印有动漫人物图案的抱枕被，旁边还展示了折叠后的抱枕被和抱枕套",
+      "files": [
+        "IMG_8800.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "装饰画",
+      "description": "数字油画内框及画布展示，画布上已有部分图案轮廓，可进行填色定制",
+      "files": [
+        "IMG_8806.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "小桌子上印着两位古风装扮的男性动漫人物图案",
+      "files": [
+        "IMG_8807.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "小桌板上印着天官赐福的动漫人物图案",
+      "files": [
+        "IMG_8808.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "帆布袋",
+      "description": "粉色杜邦纸袋，袋面上印有可印logo字样",
+      "files": [
+        "IMG_8881.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "菲林壳侧边可来图定制图案，示例为史努比图案手机壳",
+      "files": [
+        "IMG_8903.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "手机壳",
+      "description": "渐变紫色和白色手机壳，上面印有黑色的来图定制字样，右侧展示了两款带有史努比图案的手机壳样式",
+      "files": [
+        "IMG_8904.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "沙滩浴巾来图定制广告，背景为沙滩和椰子树",
+      "files": [
+        "IMG_8907.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "展示了两款不同图案的浴巾，左侧是海洋生物图案，右侧是海滩风景图案，并标注了产品参数",
+      "files": [
+        "IMG_8908.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "小夜灯",
+      "description": "发光小夜灯上有一个芭蕾女孩的镂空图案，周围有丝带和星星装饰",
+      "files": [
+        "IMG_8941.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "四个不同尺寸的正方形边框示意图，分别标注了30cm×30cm、40cm×40cm、50cm×50cm、60cm×60cm",
+      "files": [
+        "IMG_8945.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一块印有定制字样和文字说明的白色门帘，背景是厨房场景",
+      "files": [
+        "IMG_8967.JPG",
+        "IMG_8968.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "深蓝色门帘上印有黄色‘定制’和白色‘LOGO’字样，底部有白色波浪图案",
+      "files": [
+        "IMG_8969.JPG",
+        "IMG_8970.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "相框内展示金色的手印和脚印模型，上方有HAPPY1❤️❤️DAYS字样，下方有日期20220826，旁边有一个小玻璃瓶",
+      "files": [
+        "IMG_8971.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "黑色相框内展示金色的婴儿手脚印模型，上方有金色文字和爱心装饰",
+      "files": [
+        "IMG_8972.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一个人双手拿着一个深棕色相框，相框内是金色的手印和脚印模型，上方有HAPPY 1❤️❤️DAYS字样，下方有20260826字样，旁边还有一个小玻璃瓶",
+      "files": [
+        "IMG_8974.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "挂布",
+      "description": "室内场景中，沙发上方挂着一块白色挂布，上面印着红色和黑色的来图定制文字。",
+      "files": [
+        "IMG_8982.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "挂布上印着多个动漫人物形象，并标注有来图定制、一件起订等文字",
+      "files": [
+        "IMG_8983.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "装饰画",
+      "description": "油画布无框画定制广告图，背景为羽毛纹理图案",
+      "files": [
+        "IMG_8984.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "装饰画",
+      "description": "一幅挂在白色墙壁上的蓝白色调抽象海浪油画布无框画",
+      "files": [
+        "IMG_8985.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "装饰画",
+      "description": "宣传定制无框画的图片，展示了实木画框、防潮背板和进口油画布的细节。",
+      "files": [
+        "IMG_8986.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "相框纪念册",
+      "description": "加厚实木内框的无框画定制展示，有尺寸标注和木框展示",
+      "files": [
+        "IMG_8987.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "桌垫上印着来图定制的文字，支持任意尺寸和款式定制",
+      "files": [
+        "IMG_8989.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "桌垫上印着来图定制的黑色大字",
+      "files": [
+        "IMG_8990.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "宣传海报展示私车定制服务，支持动物图片等定制",
+      "files": [
+        "IMG_8993.JPG"
+      ]
+    },
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "多个不同宠物形象的车贴定制宣传图，包含猫和狗等宠物形象",
+      "files": [
+        "IMG_8994.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一个印有信封来图定制广告的信封放在一些纸张上",
+      "files": [
+        "IMG_8995.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一只手拿着一个蓝白渐变的企业信封，信封上有公司标志和印刷信息",
+      "files": [
+        "IMG_8996.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "展示西式信封定制的宣传图，信封上有企业标识和文字",
+      "files": [
+        "IMG_8997.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一只戴着宠物三角巾帽子套装的橘猫趴在足球场草地上，旁边有一个足球",
+      "files": [
+        "IMG_8999.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一只戴着白色棒球帽和印花三角巾的橘色小猫",
+      "files": [
+        "IMG_9001.JPG"
+      ]
+    },
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "黑色石板上雕刻着一只泰迪犬图案，下方刻有日期和文字",
+      "files": [
+        "IMG_9004.JPG"
+      ]
+    },
+    {
+      "reason": "非定制大类",
+      "category": "非定制",
+      "description": "一个银色镂空怀表，表盘上有24小时制数字，表盘下方印有QUARTZ字样",
+      "files": [
+        "IMG_9013.JPG"
+      ]
+    },
+    {
+      "reason": "pet_type 空且无宠物关键词",
+      "category": "其他定制",
+      "description": "银色怀表表盘上印有DIY和来图定制字样，可搭配钥匙圈",
+      "files": [
+        "IMG_9014.JPG"
+      ]
+    },
+    {
+      "reason": "未映射: 其他定制",
+      "category": "其他定制",
+      "description": "一只手拿着印有橘猫吃甜甜圈图案的方形物品，背景沙发上有一只橘猫",
+      "files": [
+        "IMG_9030.JPG"
+      ]
+    }
+  ]
+}

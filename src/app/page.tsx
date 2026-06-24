@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ProductImage, { type ProductLineKey } from '@/components/ProductImage';
 
 export default function HomePage() {
   return (
@@ -82,7 +83,7 @@ export default function HomePage() {
       <section className="px-6 md:px-10 py-20 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <div className="paw-divider mb-4"><span>🐾</span></div>
-          <h2 className="text-3xl md:text-4xl font-black mb-3">七种方式 · 留住它的样子</h2>
+          <h2 className="text-3xl md:text-4xl font-black mb-3">九种方式 · 留住它的样子</h2>
           <p className="text-muted text-base">每一种都能在浏览器里实时调整 · 看到最终效果再下单</p>
         </div>
 
@@ -165,18 +166,21 @@ export default function HomePage() {
               href={p.href}
               className="card-hover bg-white rounded-3xl border-[3px] border-dashed border-yellow/60 hover:border-yellow-dark overflow-hidden block"
             >
-              <div className="aspect-square relative" style={{ background: p.bg }}>
-                <div className="absolute top-3 left-3 bg-yellow text-brown text-xs font-black px-3 py-1 rounded-full border-2 border-yellow-dark">
+              <div className="aspect-square relative bg-white">
+                <div className="absolute top-3 left-3 z-10 bg-yellow text-brown text-xs font-black px-3 py-1 rounded-full border-2 border-yellow-dark">
                   {p.tier}
                 </div>
                 {p.badge && (
-                  <div className="absolute top-3 right-3 bg-[#FF8FA3] text-white text-xs font-black px-3 py-1 rounded-full border-2 border-[#e06080]">
+                  <div className="absolute top-3 right-3 z-10 bg-[#FF8FA3] text-white text-xs font-black px-3 py-1 rounded-full border-2 border-[#e06080]">
                     {p.badge}
                   </div>
                 )}
-                <div className="absolute inset-0 flex items-center justify-center text-8xl">
-                  {p.emoji}
-                </div>
+                <ProductImage
+                  line={p.imageLine}
+                  size="hero"
+                  fallback={p.emoji}
+                  className="w-full h-full !rounded-none"
+                />
               </div>
               <div className="p-5">
                 <div className="text-xs font-bold text-muted mb-1">{p.category}</div>
@@ -357,13 +361,26 @@ export default function HomePage() {
 }
 
 // ── 产品数据 (7 条线 + Temu POD) ──
-const PRODUCTS = [
+const PRODUCTS: Array<{
+  slug: string;
+  href: string;
+  tier: string;
+  badge?: string;
+  name: string;
+  category: string;
+  tagline: string;
+  fromPrice: number;
+  bg: string;
+  emoji: string;
+  imageLine: ProductLineKey;
+}> = [
   {
     slug: 'wool-felt', href: '/configure/wool-felt',
     tier: 'Tier 1', badge: '🔥 爆款',
     name: '羊毛毡定制肖像', category: 'Wool Felt',
     tagline: '上传照片 → AI 抠轮廓 → 选姿势/羊毛色/背景 → 实时 3D 预览',
     fromPrice: 150, bg: '#FFF3B0', emoji: '🐑',
+    imageLine: 'wool-felt',
   },
   {
     slug: 'figurine', href: '/configure/figurine',
@@ -371,6 +388,7 @@ const PRODUCTS = [
     name: '3D 打印/陶瓷雕塑', category: '3D Sculpture',
     tagline: '多角度照片 → AI 生成 3D 模型 → 选姿势/釉色/底座 → AR 预览',
     fromPrice: 100, bg: '#FFE8F0', emoji: '🗿',
+    imageLine: 'figurine',
   },
   {
     slug: 'ai-art', href: '/configure/ai-art',
@@ -378,6 +396,7 @@ const PRODUCTS = [
     name: 'AI 增强艺术画', category: 'AI Art Print',
     tagline: '5 种艺术风格 × 调色板 × 构图 → 实时风格迁移 → 画布/框画',
     fromPrice: 80, bg: '#E8F4FF', emoji: '🎨',
+    imageLine: 'painting',
   },
   {
     slug: 'painting', href: '/configure/painting',
@@ -385,6 +404,7 @@ const PRODUCTS = [
     name: '手绘油画/水彩肖像', category: 'Hand-painted',
     tagline: '选风格/构图/背景/尺寸 → 欧洲艺术家签约池 → 4 周交付',
     fromPrice: 120, bg: '#FFF1D6', emoji: '🖼️',
+    imageLine: 'painting',
   },
   {
     slug: 'jewelry', href: '/configure/jewelry',
@@ -392,6 +412,7 @@ const PRODUCTS = [
     name: '高级树脂首饰', category: 'Resin Jewelry',
     tagline: '选吊坠形状/嵌入物(毛发/骨灰/金箔) → 925银链 → 实时 3D',
     fromPrice: 80, bg: '#F0E8FF', emoji: '💎',
+    imageLine: 'jewelry',
   },
   {
     slug: 'video', href: '/configure/video',
@@ -399,6 +420,7 @@ const PRODUCTS = [
     name: '悼念视频 + USB 礼盒', category: 'Tribute Video',
     tagline: '多张照片 → 5 模板 × 音乐 → 实时预览 → 木盒 USB',
     fromPrice: 60, bg: '#E8FFE8', emoji: '🎬',
+    imageLine: 'figurine',
   },
   {
     slug: 'urn', href: '/configure/urn',
@@ -406,6 +428,23 @@ const PRODUCTS = [
     name: '设计师陶瓷 Urn', category: 'Ceramic Urn',
     tagline: '10+ 釉色 × 表面处理 × 刻印 → 3D 预览 → 高端设计师款',
     fromPrice: 120, bg: '#FFE8D6', emoji: '🏺',
+    imageLine: 'urn',
+  },
+  {
+    slug: 'phone-case', href: '/configure/phone-case',
+    tier: 'Tier 2', badge: '📱 时尚',
+    name: '宠物定制手机壳', category: 'Phone Case',
+    tagline: '上传宠物照片 → 选壳型/材质/排版 → 9H 钢化玻璃喷印 → 5-7 天到货',
+    fromPrice: 25, bg: '#FFE0E6', emoji: '📱',
+    imageLine: 'phone-case',
+  },
+  {
+    slug: 'apparel', href: '/configure/apparel',
+    tier: 'Tier 2', badge: '👕 穿戴',
+    name: '宠物刺绣 T 恤/卫衣', category: 'Pet Apparel',
+    tagline: '上传宠物头像 → 选款式/刺绣颜色/位置 → 100% 纯棉 → 5-7 天到货',
+    fromPrice: 39, bg: '#E8FFE8', emoji: '👕',
+    imageLine: 'apparel',
   },
 ];
 
