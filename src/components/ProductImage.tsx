@@ -103,6 +103,11 @@ const SIZE_PX: Record<NonNullable<Props['size']>, number> = {
   hero: 640,
 };
 
+// 非 hero 用固定方形；hero 用响应式宽屏矩形（手机快照比例）
+const SIZE_CLASS: Partial<Record<NonNullable<Props['size']>, string>> = {
+  hero: 'w-full max-w-3xl aspect-[4/3] mx-auto',
+};
+
 export default function ProductImage({
   line,
   size = 'md',
@@ -114,6 +119,8 @@ export default function ProductImage({
 }: Props) {
   const [error, setError] = useState(false);
   const px = SIZE_PX[size];
+  const sizeClass = SIZE_CLASS[size] ?? '';
+  const useResponsive = !!sizeClass;
 
   // 选图：先看精选 HERO_IMAGES，否则从 LINE_DIRS 随机
   const heroList = HERO_IMAGES[line];
@@ -130,6 +137,17 @@ export default function ProductImage({
   const showFallback = !src || error;
 
   if (showFallback) {
+    if (useResponsive) {
+      return (
+        <div
+          className={`flex items-center justify-center bg-cream ${
+            rounded ? 'rounded-2xl' : ''
+          } ${shadow ? 'shadow-soft' : ''} ${sizeClass} ${className}`}
+        >
+          <span style={{ fontSize: 96 }}>{fallback ?? '🎁'}</span>
+        </div>
+      );
+    }
     return (
       <div
         className={`flex items-center justify-center bg-cream ${
@@ -138,6 +156,26 @@ export default function ProductImage({
         style={{ width: px, height: px, fontSize: px * 0.5 }}
       >
         {fallback ?? '🎁'}
+      </div>
+    );
+  }
+
+  if (useResponsive) {
+    return (
+      <div
+        className={`relative overflow-hidden bg-white ${
+          rounded ? 'rounded-2xl' : ''
+        } ${shadow ? 'shadow-soft' : ''} ${sizeClass} ${className}`}
+      >
+        <Image
+          src={src}
+          alt={`${line} product photo`}
+          fill
+          sizes="(max-width: 768px) 100vw, 768px"
+          className="object-cover"
+          onError={() => setError(true)}
+          priority={size === 'hero' || size === 'xl'}
+        />
       </div>
     );
   }
