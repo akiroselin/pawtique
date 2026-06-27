@@ -5,6 +5,8 @@ export default function ApparelPage() {
   return (
     <PageWithGallery
       slug="apparel"
+      productType="tshirt"
+      fabricColor="#F4F1EA"
       products={productsData.product_lines.apparel || []}
       configurator={{
         title: '宠物刺绣 T 恤 / 卫衣',

@@ -5,6 +5,7 @@ export default function JewelryPage() {
   return (
     <PageWithGallery
       slug="jewelry"
+      productType="pendant"
       products={productsData.product_lines.jewelry || []}
       configurator={{
         title: '高级树脂首饰配置器',

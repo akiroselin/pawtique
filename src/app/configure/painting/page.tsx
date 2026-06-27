@@ -5,6 +5,8 @@ export default function PaintingPage() {
   return (
     <PageWithGallery
       slug="painting"
+      productType="painting"
+      frameColor="#8B5E3C"
       products={productsData.product_lines.painting || []}
       configurator={{
         title: '手绘油画 / 水彩肖像配置器',

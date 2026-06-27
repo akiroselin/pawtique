@@ -7,6 +7,7 @@ export default function AIArtPage() {
   return (
     <PageWithGallery
       slug="painting"
+      productType="sandstone"
       products={products}
       configurator={{
         title: 'AI 增强艺术画配置器',

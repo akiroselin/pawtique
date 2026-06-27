@@ -5,6 +5,7 @@ export default function PhoneCasePage() {
   return (
     <PageWithGallery
       slug="phone-case"
+      productType="phone-case"
       products={productsData.product_lines['phone-case'] || []}
       configurator={{
         title: '宠物定制手机壳',

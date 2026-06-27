@@ -9,3 +9,7 @@ _legacy_html/
 raw-photos/
 customization-research/
 .tmp/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+tsconfig.tsbuildinfo

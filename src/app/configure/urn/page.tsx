@@ -5,6 +5,7 @@ export default function UrnPage() {
   return (
     <PageWithGallery
       slug="urn"
+      productType="urn"
       products={productsData.product_lines.urn || []}
       configurator={{
         title: '设计师陶瓷 Urn 配置器',

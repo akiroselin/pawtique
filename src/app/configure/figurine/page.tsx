@@ -5,6 +5,7 @@ export default function FigurinePage() {
   return (
     <PageWithGallery
       slug="figurine"
+      productType="figurine"
       products={productsData.product_lines.figurine || []}
       configurator={{
         title: '3D 打印 / 陶瓷雕塑配置器',

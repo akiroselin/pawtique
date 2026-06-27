@@ -1,8 +1,28 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { useConfigurator } from '@/lib/store/configurator';
+
+// 3D 产品预览（Three.js）— client-only
+const ProductPreview3D = dynamic(
+  () => import('@/components/configurator/ProductPreview3D').then((m) => m.default),
+  {
+    ssr: false,
+    loading: () => (
+      <div
+        className="w-full rounded-2xl flex items-center justify-center text-cream/60 text-sm"
+        style={{
+          height: 280,
+          background: 'radial-gradient(circle at 50% 30%, rgba(123, 91, 255, 0.25), transparent 70%), #1a1a2e',
+        }}
+      >
+        🌀 加载 3D 全息预览...
+      </div>
+    ),
+  }
+);
 import { PET_MOTION_PROMPTS, type KlingTask } from '@/lib/kling/types';
 import {
   calcHoloPetPrice,
@@ -57,7 +77,12 @@ const DEVICE_COLORS = [
 export default function HoloPetPage() {
   const config = useConfigurator((s) => s.holoPet);
   const update = useConfigurator((s) => s.updateHoloPet);
-  const setPetPhoto = useConfigurator((s) => s.setPetPhoto);
+  const setProductLine = useConfigurator((s) => s.setProductLine);
+
+  // 页面加载时同步 productLine，确保 setPetPhoto 写到 holoPet 配置
+  useEffect(() => {
+    setProductLine('holo-pet');
+  }, [setProductLine]);
 
   const [step, setStep] = useState<Step>('configure');
   const [task, setTask] = useState<KlingTask | null>(null);
@@ -75,7 +100,7 @@ export default function HoloPetPage() {
       return;
     }
     const url = URL.createObjectURL(file);
-    setPetPhoto(url);
+    update({ petPhotoUrl: url });
     setError(null);
   };
 
@@ -210,30 +235,16 @@ export default function HoloPetPage() {
                 />
               </div>
 
-              {/* 设备预览 */}
-              <div
-                className="rounded-3xl p-6 text-center"
-                style={{
-                  background:
-                    'radial-gradient(circle at 50% 30%, rgba(123, 91, 255, 0.2), transparent 70%), #1a1a2e',
-                  minHeight: '220px',
-                }}
-              >
-                <div className="relative inline-block">
-                  <div
-                    className="text-7xl animate-pulse"
-                    style={{
-                      filter: 'drop-shadow(0 0 20px rgba(123, 91, 255, 0.6))',
-                    }}
-                  >
-                    {DEVICES.find((d) => d.id === config.device)?.emoji}
-                  </div>
-                  <div
-                    className="absolute inset-0 rounded-full blur-2xl opacity-50"
-                    style={{ background: 'radial-gradient(circle, rgba(123, 91, 255, 0.5), transparent)' }}
-                  />
-                </div>
-                <div className="text-cream text-sm mt-2 opacity-80">
+              {/* 设备预览 — 真 3D 全息（金字塔 / LCD 箱）*/}
+              <div className="space-y-2">
+                <ProductPreview3D
+                  imageUrl={photoUrl}
+                  videoUrl={null}
+                  productType={config.device === 'cube' ? 'holo-cube' : 'holo-pyramid'}
+                  deviceColor={config.deviceColor}
+                  height={300}
+                />
+                <div className="text-cream text-xs text-center opacity-70">
                   {DEVICES.find((d) => d.id === config.device)?.label} ·{' '}
                   {DEVICES.find((d) => d.id === config.device)?.size}
                 </div>
@@ -514,13 +525,27 @@ export default function HoloPetPage() {
               <p className="text-sm text-brown-light">预装到全息仪后，它就在你桌面上 3D 浮动了</p>
             </div>
 
-            <video
-              src={task.videoUrl}
-              controls
-              autoPlay
-              loop
-              className="w-full max-w-2xl mx-auto rounded-2xl border-2 border-[#7B5BFF] shadow-soft"
-            />
+            <div className="max-w-2xl mx-auto">
+              <ProductPreview3D
+                imageUrl={photoUrl}
+                videoUrl={task.videoUrl}
+                productType={config.device === 'cube' ? 'holo-cube' : 'holo-pyramid'}
+                deviceColor={config.deviceColor}
+                height={420}
+              />
+              <details className="mt-4 text-left">
+                <summary className="cursor-pointer text-sm font-bold text-brown-light hover:text-brown">
+                  ▶ 查看原视频（平面预览）
+                </summary>
+                <video
+                  src={task.videoUrl}
+                  controls
+                  autoPlay
+                  loop
+                  className="w-full mt-3 rounded-2xl border-2 border-[#7B5BFF]/40 shadow-soft"
+                />
+              </details>
+            </div>
 
             <div className="flex flex-wrap gap-3 justify-center mt-6">
               <a href={task.videoUrl} download className="btn-paw">
